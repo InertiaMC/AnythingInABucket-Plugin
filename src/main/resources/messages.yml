@@ -1,0 +1,142 @@
+# ----------------------------
+# AnythingInABucket Message File
+# ----------------------------
+
+# Do not edit. The plugin uses this to add new settings after an update.
+config-version: 3
+
+prefix: "&#E07A5F&lBUCKET &8» "
+
+error:
+  usage: "&cUsage: &e{usage}"
+  no-permission: "&cYou do not have permission to do that."
+  only-players: "&cOnly players can use this command."
+  player-unknown: "&e{player}&c has never joined."
+  player-offline: "&e{player}&c is not online."
+  invalid-number: "&e{number}&c is not a number from {min} to {max}."
+
+command:
+  # A file that could not be read keeps what it had; {error} names the file and line.
+  reload-error: "&c{error}"
+  reload-problems: "&e{count} settings were left out or changed; the console lists them."
+  reload-success: "&fConfiguration and messages &#E07A5Freloaded&f."
+  reload-restart: "&7database.yml takes effect after a restart."
+
+# {mob} is the kind of mob ("Horse").
+catch:
+  no-permission: "&cYou can't catch mobs."
+  no-permission-mob: "&cYou can't catch a &e{mob}&c."
+  world: "&cMobs can't be caught or released in this world."
+  blacklisted: "&cA &e{mob}&c can't be caught."
+  plugin-mob: "&cThis mob belongs to the server and can't be caught."
+  capture-off: "&cCapture Buckets don't catch on this server. &7Sneak and right-click with a normal bucket."
+  not-yours: "&cThis &e{mob}&c belongs to &e{owner}&c."
+  ridden: "&cSomeone is riding this &e{mob}&c."
+  protected: "&cYou can't catch mobs here."
+  cooldown: "&cWait &e{time}&c before catching again."
+  copy: "&cThis Capture Bucket is a copy, so it can't catch anything."
+  failed: "&cThis mob could not be caught; the console has the details."
+  caught: "&fYou caught the &#E07A5F{mob}&f."
+
+release:
+  no-permission: "&cYou can't release mobs."
+  blocked: "&cSomething is in the way there."
+  protected: "&cYou can't release mobs here."
+  copy: "&cThis bucket is a copy, so it can't be released."
+  empty: "&cThis bucket's mob is gone. Ask staff to look."
+  failed: "&cThis mob could not be released; the console has the details."
+  released: "&fYou let the &#E07A5F{mob}&f out."
+
+# {amount} is how many Capture Buckets.
+give:
+  received: "&fYou got &#E07A5F{amount} Capture Buckets&f."
+  received-one: "&fYou got a &#E07A5FCapture Bucket&f."
+  given: "&fGave &#E07A5F{amount} Capture Buckets&f to &#E07A5F{player}&f."
+  given-one: "&fGave a &#E07A5FCapture Bucket&f to &#E07A5F{player}&f."
+  everyone: "everyone online"
+
+# The empty Capture Bucket.
+bucket:
+  name: "&#E07A5F&lCapture Bucket"
+  lore:
+    - "&#A8B4C4Catches a mob to carry, store or trade,"
+    - "&#A8B4C4and lets it out anywhere later."
+    - ""
+    - "&#F0A08A➔ Right-click a mob to CATCH it"
+
+# A filled bucket. {mob} is the kind of mob, {name} its own name tag, {player} who caught it.
+filled:
+  name: "&#E07A5F&l{mob} in a Bucket"
+  name-named: "&#E07A5F&l{name} &7({mob} in a Bucket)"
+  lore:
+    - "&#A8B4C4Caught by {player}."
+    - ""
+    - "&#E07A5F&lBUCKET"
+    # Replaced by one line for each thing the mob has.
+    - "{facts}"
+    - ""
+    - "&#F0A08A➔ Right-click a block to RELEASE"
+  fact: " &#F2B7A5◆ &7{label}: &f{value}"
+  labels:
+    health: "Health"
+    age: "Age"
+    owner: "Owner"
+    color: "Colour"
+    markings: "Markings"
+    variant: "Variant"
+    personality: "Personality"
+    rust: "Rust"
+    size: "Size"
+    profession: "Profession"
+    level: "Level"
+    trades: "Trades"
+    sheared: "Sheared"
+    saddle: "Saddle"
+    armour: "Armour"
+    chest: "Chest"
+    speed: "Speed"
+    jump: "Jump"
+  words:
+    adult: "Adult"
+    baby: "Baby"
+    yes-word: "Yes"
+    no-word: "No"
+    unknown: "Unknown"
+    none: "None"
+    small: "Small"
+    medium: "Medium"
+    big: "Big"
+    item-one: "1 item"
+    items: "{count} items"
+    speed: "{value} blocks/s"
+    jump: "{value} blocks"
+    # A tropical fish's two colours.
+    two-colors: "{first} and {second}"
+    novice: "Novice"
+    apprentice: "Apprentice"
+    journeyman: "Journeyman"
+    expert: "Expert"
+    master: "Master"
+
+# The question a player sees when the bucket resource pack is offered as they join (config.yml resource-pack).
+resource-pack:
+  prompt: "&fShows each caught mob peeking out of its bucket. &7You can say no."
+
+# /bucket admin info: a box about the filled bucket in hand.
+info:
+  none: "&cHold a filled bucket in your main hand first."
+  nothing: "none"
+  works: "&#4ADE80works"
+  copy: "&#FF6B6Ba copy, or already used"
+  empty: "&#FF6B6Bno mob (released or lost)"
+  stored: "{format}, data version {version}"
+  box:
+    - "&8&m                                                  "
+    - "&#E07A5F&lBUCKET &8» &f{mob}"
+    - ""
+    - "  &#E07A5F» &7Caught by: &f{player}"
+    - "  &#E07A5F» &7Caught: &f{caught}"
+    - "  &#E07A5F» &7Code: &f{code} &8(&7{state}&8)"
+    - "  &#E07A5F» &7Stored as: &f{stored}"
+    - "  &#E07A5F» &7Bucket: &f{id}"
+    - "&8&m                                                  "

@@ -1,0 +1,128 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "index": 0,
+  "cases": [
+   {
+    "when": "axolotl",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/axolotl"
+    }
+   },
+   {
+    "when": "axolotl/wild",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/axolotl/wild"
+    }
+   },
+   {
+    "when": "axolotl/gold",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/axolotl/gold"
+    }
+   },
+   {
+    "when": "axolotl/cyan",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/axolotl/cyan"
+    }
+   },
+   {
+    "when": "axolotl/blue",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/axolotl/blue"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:select",
+   "property": "minecraft:custom_model_data",
+   "index": 1,
+   "cases": [
+    {
+     "when": "axolotl",
+     "model": {
+      "type": "minecraft:model",
+      "model": "anythinginabucket:bucket/axolotl"
+     }
+    }
+   ],
+   "fallback": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+     {
+      "threshold": 4100001,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/axolotl"
+      }
+     },
+     {
+      "threshold": 4100003,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/axolotl"
+      }
+     },
+     {
+      "threshold": 4100004,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/axolotl/blue"
+      }
+     },
+     {
+      "threshold": 4100005,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/axolotl/cyan"
+      }
+     },
+     {
+      "threshold": 4100006,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/axolotl/gold"
+      }
+     },
+     {
+      "threshold": 4100007,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/axolotl/wild"
+      }
+     },
+     {
+      "threshold": 4100008,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/axolotl"
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:model",
+     "model": "minecraft:item/template_spawn_egg",
+     "tints": [
+      {
+       "type": "minecraft:constant",
+       "value": -278045
+      },
+      {
+       "type": "minecraft:constant",
+       "value": -5886604
+      }
+     ]
+    }
+   }
+  }
+ }
+}

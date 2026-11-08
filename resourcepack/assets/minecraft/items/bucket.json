@@ -1,0 +1,83 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "index": 0,
+  "cases": [
+   {
+    "when": "illusioner",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/illusioner"
+    }
+   },
+   {
+    "when": "giant",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/giant"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:select",
+   "property": "minecraft:custom_model_data",
+   "index": 1,
+   "cases": [
+    {
+     "when": "illusioner",
+     "model": {
+      "type": "minecraft:model",
+      "model": "anythinginabucket:bucket/illusioner"
+     }
+    },
+    {
+     "when": "giant",
+     "model": {
+      "type": "minecraft:model",
+      "model": "anythinginabucket:bucket/giant"
+     }
+    }
+   ],
+   "fallback": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+     {
+      "threshold": 4100058,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/giant"
+      }
+     },
+     {
+      "threshold": 4100059,
+      "model": {
+       "type": "minecraft:model",
+       "model": "minecraft:item/bucket"
+      }
+     },
+     {
+      "threshold": 4100101,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/illusioner"
+      }
+     },
+     {
+      "threshold": 4100102,
+      "model": {
+       "type": "minecraft:model",
+       "model": "minecraft:item/bucket"
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:model",
+     "model": "minecraft:item/bucket"
+    }
+   }
+  }
+ }
+}

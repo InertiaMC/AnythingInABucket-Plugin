@@ -1,0 +1,72 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "index": 0,
+  "cases": [
+   {
+    "when": "pig",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/pig"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:select",
+   "property": "minecraft:custom_model_data",
+   "index": 1,
+   "cases": [
+    {
+     "when": "pig",
+     "model": {
+      "type": "minecraft:model",
+      "model": "anythinginabucket:bucket/pig"
+     }
+    }
+   ],
+   "fallback": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+     {
+      "threshold": 4100001,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/pig"
+      }
+     },
+     {
+      "threshold": 4100127,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/pig"
+      }
+     },
+     {
+      "threshold": 4100128,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/pig"
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:model",
+     "model": "minecraft:item/template_spawn_egg",
+     "tints": [
+      {
+       "type": "minecraft:constant",
+       "value": -1006174
+      },
+      {
+       "type": "minecraft:constant",
+       "value": -2399393
+      }
+     ]
+    }
+   }
+  }
+ }
+}

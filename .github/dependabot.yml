@@ -1,0 +1,24 @@
+version: 2
+updates:
+  - package-ecosystem: "maven"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+    labels:
+      - "dependencies"
+    ignore:
+      # Compiled against the oldest supported server version.
+      - dependency-name: "org.spigotmc:spigot-api"
+      # Provided by the server, so pinned to what the oldest supported server ships.
+      - dependency-name: "org.xerial:sqlite-jdbc"
+      - dependency-name: "com.mysql:mysql-connector-j"
+      - dependency-name: "org.junit.jupiter:junit-jupiter"
+        update-types: ["version-update:semver-major"]
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 3
+    labels:
+      - "ci"

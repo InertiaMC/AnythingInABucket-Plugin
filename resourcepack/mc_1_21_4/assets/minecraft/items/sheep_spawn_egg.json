@@ -1,0 +1,282 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "index": 0,
+  "cases": [
+   {
+    "when": "sheep",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/sheep"
+    }
+   },
+   {
+    "when": "sheep/orange",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/sheep/orange"
+    }
+   },
+   {
+    "when": "sheep/magenta",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/sheep/magenta"
+    }
+   },
+   {
+    "when": "sheep/light_blue",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/sheep/light_blue"
+    }
+   },
+   {
+    "when": "sheep/yellow",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/sheep/yellow"
+    }
+   },
+   {
+    "when": "sheep/lime",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/sheep/lime"
+    }
+   },
+   {
+    "when": "sheep/pink",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/sheep/pink"
+    }
+   },
+   {
+    "when": "sheep/gray",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/sheep/gray"
+    }
+   },
+   {
+    "when": "sheep/light_gray",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/sheep/light_gray"
+    }
+   },
+   {
+    "when": "sheep/cyan",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/sheep/cyan"
+    }
+   },
+   {
+    "when": "sheep/purple",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/sheep/purple"
+    }
+   },
+   {
+    "when": "sheep/blue",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/sheep/blue"
+    }
+   },
+   {
+    "when": "sheep/brown",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/sheep/brown"
+    }
+   },
+   {
+    "when": "sheep/green",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/sheep/green"
+    }
+   },
+   {
+    "when": "sheep/red",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/sheep/red"
+    }
+   },
+   {
+    "when": "sheep/black",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/sheep/black"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:select",
+   "property": "minecraft:custom_model_data",
+   "index": 1,
+   "cases": [
+    {
+     "when": "sheep",
+     "model": {
+      "type": "minecraft:model",
+      "model": "anythinginabucket:bucket/sheep"
+     }
+    }
+   ],
+   "fallback": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+     {
+      "threshold": 4100001,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/sheep"
+      }
+     },
+     {
+      "threshold": 4100146,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/sheep"
+      }
+     },
+     {
+      "threshold": 4100147,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/sheep/black"
+      }
+     },
+     {
+      "threshold": 4100148,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/sheep/blue"
+      }
+     },
+     {
+      "threshold": 4100149,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/sheep/brown"
+      }
+     },
+     {
+      "threshold": 4100150,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/sheep/cyan"
+      }
+     },
+     {
+      "threshold": 4100151,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/sheep/gray"
+      }
+     },
+     {
+      "threshold": 4100152,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/sheep/green"
+      }
+     },
+     {
+      "threshold": 4100153,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/sheep/light_blue"
+      }
+     },
+     {
+      "threshold": 4100154,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/sheep/light_gray"
+      }
+     },
+     {
+      "threshold": 4100155,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/sheep/lime"
+      }
+     },
+     {
+      "threshold": 4100156,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/sheep/magenta"
+      }
+     },
+     {
+      "threshold": 4100157,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/sheep/orange"
+      }
+     },
+     {
+      "threshold": 4100158,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/sheep/pink"
+      }
+     },
+     {
+      "threshold": 4100159,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/sheep/purple"
+      }
+     },
+     {
+      "threshold": 4100160,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/sheep/red"
+      }
+     },
+     {
+      "threshold": 4100161,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/sheep/yellow"
+      }
+     },
+     {
+      "threshold": 4100162,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/sheep"
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:model",
+     "model": "minecraft:item/template_spawn_egg",
+     "tints": [
+      {
+       "type": "minecraft:constant",
+       "value": -1579033
+      },
+      {
+       "type": "minecraft:constant",
+       "value": -19019
+      }
+     ]
+    }
+   }
+  }
+ }
+}

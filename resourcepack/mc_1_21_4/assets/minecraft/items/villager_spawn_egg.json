@@ -1,0 +1,1542 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "index": 0,
+  "cases": [
+   {
+    "when": "villager",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager"
+    }
+   },
+   {
+    "when": "villager/plains",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/plains"
+    }
+   },
+   {
+    "when": "villager/plains/armorer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/plains/armorer"
+    }
+   },
+   {
+    "when": "villager/plains/butcher",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/plains/butcher"
+    }
+   },
+   {
+    "when": "villager/plains/cartographer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/plains/cartographer"
+    }
+   },
+   {
+    "when": "villager/plains/cleric",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/plains/cleric"
+    }
+   },
+   {
+    "when": "villager/plains/farmer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/plains/farmer"
+    }
+   },
+   {
+    "when": "villager/plains/fisherman",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/plains/fisherman"
+    }
+   },
+   {
+    "when": "villager/plains/fletcher",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/plains/fletcher"
+    }
+   },
+   {
+    "when": "villager/plains/leatherworker",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/plains/leatherworker"
+    }
+   },
+   {
+    "when": "villager/plains/librarian",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/plains/librarian"
+    }
+   },
+   {
+    "when": "villager/plains/mason",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/plains/mason"
+    }
+   },
+   {
+    "when": "villager/plains/nitwit",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/plains/nitwit"
+    }
+   },
+   {
+    "when": "villager/plains/shepherd",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/plains/shepherd"
+    }
+   },
+   {
+    "when": "villager/plains/toolsmith",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/plains/toolsmith"
+    }
+   },
+   {
+    "when": "villager/plains/weaponsmith",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/plains/weaponsmith"
+    }
+   },
+   {
+    "when": "villager/desert",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/desert"
+    }
+   },
+   {
+    "when": "villager/desert/armorer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/desert/armorer"
+    }
+   },
+   {
+    "when": "villager/desert/butcher",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/desert/butcher"
+    }
+   },
+   {
+    "when": "villager/desert/cartographer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/desert/cartographer"
+    }
+   },
+   {
+    "when": "villager/desert/cleric",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/desert/cleric"
+    }
+   },
+   {
+    "when": "villager/desert/farmer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/desert/farmer"
+    }
+   },
+   {
+    "when": "villager/desert/fisherman",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/desert/fisherman"
+    }
+   },
+   {
+    "when": "villager/desert/fletcher",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/desert/fletcher"
+    }
+   },
+   {
+    "when": "villager/desert/leatherworker",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/desert/leatherworker"
+    }
+   },
+   {
+    "when": "villager/desert/librarian",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/desert/librarian"
+    }
+   },
+   {
+    "when": "villager/desert/mason",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/desert/mason"
+    }
+   },
+   {
+    "when": "villager/desert/nitwit",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/desert/nitwit"
+    }
+   },
+   {
+    "when": "villager/desert/shepherd",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/desert/shepherd"
+    }
+   },
+   {
+    "when": "villager/desert/toolsmith",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/desert/toolsmith"
+    }
+   },
+   {
+    "when": "villager/desert/weaponsmith",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/desert/weaponsmith"
+    }
+   },
+   {
+    "when": "villager/jungle",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/jungle"
+    }
+   },
+   {
+    "when": "villager/jungle/armorer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/jungle/armorer"
+    }
+   },
+   {
+    "when": "villager/jungle/butcher",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/jungle/butcher"
+    }
+   },
+   {
+    "when": "villager/jungle/cartographer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/jungle/cartographer"
+    }
+   },
+   {
+    "when": "villager/jungle/cleric",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/jungle/cleric"
+    }
+   },
+   {
+    "when": "villager/jungle/farmer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/jungle/farmer"
+    }
+   },
+   {
+    "when": "villager/jungle/fisherman",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/jungle/fisherman"
+    }
+   },
+   {
+    "when": "villager/jungle/fletcher",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/jungle/fletcher"
+    }
+   },
+   {
+    "when": "villager/jungle/leatherworker",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/jungle/leatherworker"
+    }
+   },
+   {
+    "when": "villager/jungle/librarian",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/jungle/librarian"
+    }
+   },
+   {
+    "when": "villager/jungle/mason",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/jungle/mason"
+    }
+   },
+   {
+    "when": "villager/jungle/nitwit",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/jungle/nitwit"
+    }
+   },
+   {
+    "when": "villager/jungle/shepherd",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/jungle/shepherd"
+    }
+   },
+   {
+    "when": "villager/jungle/toolsmith",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/jungle/toolsmith"
+    }
+   },
+   {
+    "when": "villager/jungle/weaponsmith",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/jungle/weaponsmith"
+    }
+   },
+   {
+    "when": "villager/savanna",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/savanna"
+    }
+   },
+   {
+    "when": "villager/savanna/armorer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/savanna/armorer"
+    }
+   },
+   {
+    "when": "villager/savanna/butcher",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/savanna/butcher"
+    }
+   },
+   {
+    "when": "villager/savanna/cartographer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/savanna/cartographer"
+    }
+   },
+   {
+    "when": "villager/savanna/cleric",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/savanna/cleric"
+    }
+   },
+   {
+    "when": "villager/savanna/farmer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/savanna/farmer"
+    }
+   },
+   {
+    "when": "villager/savanna/fisherman",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/savanna/fisherman"
+    }
+   },
+   {
+    "when": "villager/savanna/fletcher",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/savanna/fletcher"
+    }
+   },
+   {
+    "when": "villager/savanna/leatherworker",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/savanna/leatherworker"
+    }
+   },
+   {
+    "when": "villager/savanna/librarian",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/savanna/librarian"
+    }
+   },
+   {
+    "when": "villager/savanna/mason",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/savanna/mason"
+    }
+   },
+   {
+    "when": "villager/savanna/nitwit",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/savanna/nitwit"
+    }
+   },
+   {
+    "when": "villager/savanna/shepherd",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/savanna/shepherd"
+    }
+   },
+   {
+    "when": "villager/savanna/toolsmith",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/savanna/toolsmith"
+    }
+   },
+   {
+    "when": "villager/savanna/weaponsmith",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/savanna/weaponsmith"
+    }
+   },
+   {
+    "when": "villager/snow",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/snow"
+    }
+   },
+   {
+    "when": "villager/snow/armorer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/snow/armorer"
+    }
+   },
+   {
+    "when": "villager/snow/butcher",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/snow/butcher"
+    }
+   },
+   {
+    "when": "villager/snow/cartographer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/snow/cartographer"
+    }
+   },
+   {
+    "when": "villager/snow/cleric",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/snow/cleric"
+    }
+   },
+   {
+    "when": "villager/snow/farmer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/snow/farmer"
+    }
+   },
+   {
+    "when": "villager/snow/fisherman",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/snow/fisherman"
+    }
+   },
+   {
+    "when": "villager/snow/fletcher",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/snow/fletcher"
+    }
+   },
+   {
+    "when": "villager/snow/leatherworker",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/snow/leatherworker"
+    }
+   },
+   {
+    "when": "villager/snow/librarian",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/snow/librarian"
+    }
+   },
+   {
+    "when": "villager/snow/mason",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/snow/mason"
+    }
+   },
+   {
+    "when": "villager/snow/nitwit",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/snow/nitwit"
+    }
+   },
+   {
+    "when": "villager/snow/shepherd",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/snow/shepherd"
+    }
+   },
+   {
+    "when": "villager/snow/toolsmith",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/snow/toolsmith"
+    }
+   },
+   {
+    "when": "villager/snow/weaponsmith",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/snow/weaponsmith"
+    }
+   },
+   {
+    "when": "villager/swamp",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/swamp"
+    }
+   },
+   {
+    "when": "villager/swamp/armorer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/swamp/armorer"
+    }
+   },
+   {
+    "when": "villager/swamp/butcher",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/swamp/butcher"
+    }
+   },
+   {
+    "when": "villager/swamp/cartographer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/swamp/cartographer"
+    }
+   },
+   {
+    "when": "villager/swamp/cleric",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/swamp/cleric"
+    }
+   },
+   {
+    "when": "villager/swamp/farmer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/swamp/farmer"
+    }
+   },
+   {
+    "when": "villager/swamp/fisherman",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/swamp/fisherman"
+    }
+   },
+   {
+    "when": "villager/swamp/fletcher",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/swamp/fletcher"
+    }
+   },
+   {
+    "when": "villager/swamp/leatherworker",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/swamp/leatherworker"
+    }
+   },
+   {
+    "when": "villager/swamp/librarian",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/swamp/librarian"
+    }
+   },
+   {
+    "when": "villager/swamp/mason",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/swamp/mason"
+    }
+   },
+   {
+    "when": "villager/swamp/nitwit",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/swamp/nitwit"
+    }
+   },
+   {
+    "when": "villager/swamp/shepherd",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/swamp/shepherd"
+    }
+   },
+   {
+    "when": "villager/swamp/toolsmith",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/swamp/toolsmith"
+    }
+   },
+   {
+    "when": "villager/swamp/weaponsmith",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/swamp/weaponsmith"
+    }
+   },
+   {
+    "when": "villager/taiga",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/taiga"
+    }
+   },
+   {
+    "when": "villager/taiga/armorer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/taiga/armorer"
+    }
+   },
+   {
+    "when": "villager/taiga/butcher",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/taiga/butcher"
+    }
+   },
+   {
+    "when": "villager/taiga/cartographer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/taiga/cartographer"
+    }
+   },
+   {
+    "when": "villager/taiga/cleric",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/taiga/cleric"
+    }
+   },
+   {
+    "when": "villager/taiga/farmer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/taiga/farmer"
+    }
+   },
+   {
+    "when": "villager/taiga/fisherman",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/taiga/fisherman"
+    }
+   },
+   {
+    "when": "villager/taiga/fletcher",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/taiga/fletcher"
+    }
+   },
+   {
+    "when": "villager/taiga/leatherworker",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/taiga/leatherworker"
+    }
+   },
+   {
+    "when": "villager/taiga/librarian",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/taiga/librarian"
+    }
+   },
+   {
+    "when": "villager/taiga/mason",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/taiga/mason"
+    }
+   },
+   {
+    "when": "villager/taiga/nitwit",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/taiga/nitwit"
+    }
+   },
+   {
+    "when": "villager/taiga/shepherd",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/taiga/shepherd"
+    }
+   },
+   {
+    "when": "villager/taiga/toolsmith",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/taiga/toolsmith"
+    }
+   },
+   {
+    "when": "villager/taiga/weaponsmith",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/villager/taiga/weaponsmith"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:select",
+   "property": "minecraft:custom_model_data",
+   "index": 1,
+   "cases": [
+    {
+     "when": "villager",
+     "model": {
+      "type": "minecraft:model",
+      "model": "anythinginabucket:bucket/villager"
+     }
+    }
+   ],
+   "fallback": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+     {
+      "threshold": 4100001,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager"
+      }
+     },
+     {
+      "threshold": 4103270,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager"
+      }
+     },
+     {
+      "threshold": 4103271,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/desert"
+      }
+     },
+     {
+      "threshold": 4103272,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/desert/armorer"
+      }
+     },
+     {
+      "threshold": 4103273,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/desert/butcher"
+      }
+     },
+     {
+      "threshold": 4103274,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/desert/cartographer"
+      }
+     },
+     {
+      "threshold": 4103275,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/desert/cleric"
+      }
+     },
+     {
+      "threshold": 4103276,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/desert/farmer"
+      }
+     },
+     {
+      "threshold": 4103277,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/desert/fisherman"
+      }
+     },
+     {
+      "threshold": 4103278,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/desert/fletcher"
+      }
+     },
+     {
+      "threshold": 4103279,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/desert/leatherworker"
+      }
+     },
+     {
+      "threshold": 4103280,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/desert/librarian"
+      }
+     },
+     {
+      "threshold": 4103281,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/desert/mason"
+      }
+     },
+     {
+      "threshold": 4103282,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/desert/nitwit"
+      }
+     },
+     {
+      "threshold": 4103283,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/desert/shepherd"
+      }
+     },
+     {
+      "threshold": 4103284,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/desert/toolsmith"
+      }
+     },
+     {
+      "threshold": 4103285,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/desert/weaponsmith"
+      }
+     },
+     {
+      "threshold": 4103286,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/jungle"
+      }
+     },
+     {
+      "threshold": 4103287,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/jungle/armorer"
+      }
+     },
+     {
+      "threshold": 4103288,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/jungle/butcher"
+      }
+     },
+     {
+      "threshold": 4103289,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/jungle/cartographer"
+      }
+     },
+     {
+      "threshold": 4103290,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/jungle/cleric"
+      }
+     },
+     {
+      "threshold": 4103291,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/jungle/farmer"
+      }
+     },
+     {
+      "threshold": 4103292,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/jungle/fisherman"
+      }
+     },
+     {
+      "threshold": 4103293,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/jungle/fletcher"
+      }
+     },
+     {
+      "threshold": 4103294,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/jungle/leatherworker"
+      }
+     },
+     {
+      "threshold": 4103295,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/jungle/librarian"
+      }
+     },
+     {
+      "threshold": 4103296,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/jungle/mason"
+      }
+     },
+     {
+      "threshold": 4103297,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/jungle/nitwit"
+      }
+     },
+     {
+      "threshold": 4103298,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/jungle/shepherd"
+      }
+     },
+     {
+      "threshold": 4103299,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/jungle/toolsmith"
+      }
+     },
+     {
+      "threshold": 4103300,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/jungle/weaponsmith"
+      }
+     },
+     {
+      "threshold": 4103301,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/plains"
+      }
+     },
+     {
+      "threshold": 4103302,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/plains/armorer"
+      }
+     },
+     {
+      "threshold": 4103303,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/plains/butcher"
+      }
+     },
+     {
+      "threshold": 4103304,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/plains/cartographer"
+      }
+     },
+     {
+      "threshold": 4103305,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/plains/cleric"
+      }
+     },
+     {
+      "threshold": 4103306,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/plains/farmer"
+      }
+     },
+     {
+      "threshold": 4103307,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/plains/fisherman"
+      }
+     },
+     {
+      "threshold": 4103308,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/plains/fletcher"
+      }
+     },
+     {
+      "threshold": 4103309,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/plains/leatherworker"
+      }
+     },
+     {
+      "threshold": 4103310,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/plains/librarian"
+      }
+     },
+     {
+      "threshold": 4103311,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/plains/mason"
+      }
+     },
+     {
+      "threshold": 4103312,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/plains/nitwit"
+      }
+     },
+     {
+      "threshold": 4103313,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/plains/shepherd"
+      }
+     },
+     {
+      "threshold": 4103314,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/plains/toolsmith"
+      }
+     },
+     {
+      "threshold": 4103315,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/plains/weaponsmith"
+      }
+     },
+     {
+      "threshold": 4103316,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/savanna"
+      }
+     },
+     {
+      "threshold": 4103317,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/savanna/armorer"
+      }
+     },
+     {
+      "threshold": 4103318,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/savanna/butcher"
+      }
+     },
+     {
+      "threshold": 4103319,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/savanna/cartographer"
+      }
+     },
+     {
+      "threshold": 4103320,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/savanna/cleric"
+      }
+     },
+     {
+      "threshold": 4103321,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/savanna/farmer"
+      }
+     },
+     {
+      "threshold": 4103322,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/savanna/fisherman"
+      }
+     },
+     {
+      "threshold": 4103323,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/savanna/fletcher"
+      }
+     },
+     {
+      "threshold": 4103324,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/savanna/leatherworker"
+      }
+     },
+     {
+      "threshold": 4103325,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/savanna/librarian"
+      }
+     },
+     {
+      "threshold": 4103326,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/savanna/mason"
+      }
+     },
+     {
+      "threshold": 4103327,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/savanna/nitwit"
+      }
+     },
+     {
+      "threshold": 4103328,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/savanna/shepherd"
+      }
+     },
+     {
+      "threshold": 4103329,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/savanna/toolsmith"
+      }
+     },
+     {
+      "threshold": 4103330,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/savanna/weaponsmith"
+      }
+     },
+     {
+      "threshold": 4103331,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/snow"
+      }
+     },
+     {
+      "threshold": 4103332,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/snow/armorer"
+      }
+     },
+     {
+      "threshold": 4103333,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/snow/butcher"
+      }
+     },
+     {
+      "threshold": 4103334,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/snow/cartographer"
+      }
+     },
+     {
+      "threshold": 4103335,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/snow/cleric"
+      }
+     },
+     {
+      "threshold": 4103336,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/snow/farmer"
+      }
+     },
+     {
+      "threshold": 4103337,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/snow/fisherman"
+      }
+     },
+     {
+      "threshold": 4103338,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/snow/fletcher"
+      }
+     },
+     {
+      "threshold": 4103339,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/snow/leatherworker"
+      }
+     },
+     {
+      "threshold": 4103340,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/snow/librarian"
+      }
+     },
+     {
+      "threshold": 4103341,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/snow/mason"
+      }
+     },
+     {
+      "threshold": 4103342,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/snow/nitwit"
+      }
+     },
+     {
+      "threshold": 4103343,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/snow/shepherd"
+      }
+     },
+     {
+      "threshold": 4103344,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/snow/toolsmith"
+      }
+     },
+     {
+      "threshold": 4103345,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/snow/weaponsmith"
+      }
+     },
+     {
+      "threshold": 4103346,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/swamp"
+      }
+     },
+     {
+      "threshold": 4103347,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/swamp/armorer"
+      }
+     },
+     {
+      "threshold": 4103348,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/swamp/butcher"
+      }
+     },
+     {
+      "threshold": 4103349,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/swamp/cartographer"
+      }
+     },
+     {
+      "threshold": 4103350,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/swamp/cleric"
+      }
+     },
+     {
+      "threshold": 4103351,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/swamp/farmer"
+      }
+     },
+     {
+      "threshold": 4103352,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/swamp/fisherman"
+      }
+     },
+     {
+      "threshold": 4103353,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/swamp/fletcher"
+      }
+     },
+     {
+      "threshold": 4103354,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/swamp/leatherworker"
+      }
+     },
+     {
+      "threshold": 4103355,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/swamp/librarian"
+      }
+     },
+     {
+      "threshold": 4103356,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/swamp/mason"
+      }
+     },
+     {
+      "threshold": 4103357,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/swamp/nitwit"
+      }
+     },
+     {
+      "threshold": 4103358,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/swamp/shepherd"
+      }
+     },
+     {
+      "threshold": 4103359,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/swamp/toolsmith"
+      }
+     },
+     {
+      "threshold": 4103360,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/swamp/weaponsmith"
+      }
+     },
+     {
+      "threshold": 4103361,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/taiga"
+      }
+     },
+     {
+      "threshold": 4103362,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/taiga/armorer"
+      }
+     },
+     {
+      "threshold": 4103363,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/taiga/butcher"
+      }
+     },
+     {
+      "threshold": 4103364,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/taiga/cartographer"
+      }
+     },
+     {
+      "threshold": 4103365,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/taiga/cleric"
+      }
+     },
+     {
+      "threshold": 4103366,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/taiga/farmer"
+      }
+     },
+     {
+      "threshold": 4103367,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/taiga/fisherman"
+      }
+     },
+     {
+      "threshold": 4103368,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/taiga/fletcher"
+      }
+     },
+     {
+      "threshold": 4103369,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/taiga/leatherworker"
+      }
+     },
+     {
+      "threshold": 4103370,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/taiga/librarian"
+      }
+     },
+     {
+      "threshold": 4103371,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/taiga/mason"
+      }
+     },
+     {
+      "threshold": 4103372,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/taiga/nitwit"
+      }
+     },
+     {
+      "threshold": 4103373,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/taiga/shepherd"
+      }
+     },
+     {
+      "threshold": 4103374,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/taiga/toolsmith"
+      }
+     },
+     {
+      "threshold": 4103375,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager/taiga/weaponsmith"
+      }
+     },
+     {
+      "threshold": 4103376,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/villager"
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:model",
+     "model": "minecraft:item/template_spawn_egg",
+     "tints": [
+      {
+       "type": "minecraft:constant",
+       "value": -11125709
+      },
+      {
+       "type": "minecraft:constant",
+       "value": -4355214
+      }
+     ]
+    }
+   }
+  }
+ }
+}

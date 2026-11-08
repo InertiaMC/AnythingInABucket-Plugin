@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/template_spawn_egg","overrides":[{"predicate":{"custom_model_data":4100001},"model":"anythinginabucket:bucket/hoglin"},{"predicate":{"custom_model_data":4100063},"model":"anythinginabucket:bucket/hoglin"},{"predicate":{"custom_model_data":4100064},"model":"anythinginabucket:bucket/hoglin"}]}

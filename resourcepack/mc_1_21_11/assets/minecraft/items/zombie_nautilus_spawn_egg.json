@@ -1,0 +1,90 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "index": 0,
+  "cases": [
+   {
+    "when": "zombie_nautilus",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_nautilus"
+    }
+   },
+   {
+    "when": "zombie_nautilus/temperate",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_nautilus/temperate"
+    }
+   },
+   {
+    "when": "zombie_nautilus/warm",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_nautilus/warm"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:select",
+   "property": "minecraft:custom_model_data",
+   "index": 1,
+   "cases": [
+    {
+     "when": "zombie_nautilus",
+     "model": {
+      "type": "minecraft:model",
+      "model": "anythinginabucket:bucket/zombie_nautilus"
+     }
+    }
+   ],
+   "fallback": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+     {
+      "threshold": 4100001,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_nautilus"
+      }
+     },
+     {
+      "threshold": 4103395,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_nautilus"
+      }
+     },
+     {
+      "threshold": 4103396,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_nautilus/temperate"
+      }
+     },
+     {
+      "threshold": 4103397,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_nautilus/warm"
+      }
+     },
+     {
+      "threshold": 4103398,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_nautilus"
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:model",
+     "model": "minecraft:item/zombie_nautilus_spawn_egg"
+    }
+   }
+  }
+ }
+}

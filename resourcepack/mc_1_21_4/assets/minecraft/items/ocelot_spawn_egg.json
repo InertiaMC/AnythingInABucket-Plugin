@@ -1,0 +1,72 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "index": 0,
+  "cases": [
+   {
+    "when": "ocelot",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/ocelot"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:select",
+   "property": "minecraft:custom_model_data",
+   "index": 1,
+   "cases": [
+    {
+     "when": "ocelot",
+     "model": {
+      "type": "minecraft:model",
+      "model": "anythinginabucket:bucket/ocelot"
+     }
+    }
+   ],
+   "fallback": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+     {
+      "threshold": 4100001,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/ocelot"
+      }
+     },
+     {
+      "threshold": 4100112,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/ocelot"
+      }
+     },
+     {
+      "threshold": 4100113,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/ocelot"
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:model",
+     "model": "minecraft:item/template_spawn_egg",
+     "tints": [
+      {
+       "type": "minecraft:constant",
+       "value": -1057155
+      },
+      {
+       "type": "minecraft:constant",
+       "value": -11123660
+      }
+     ]
+    }
+   }
+  }
+ }
+}

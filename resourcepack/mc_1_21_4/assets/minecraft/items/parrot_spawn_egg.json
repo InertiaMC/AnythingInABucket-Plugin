@@ -1,0 +1,128 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "index": 0,
+  "cases": [
+   {
+    "when": "parrot",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/parrot"
+    }
+   },
+   {
+    "when": "parrot/blue",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/parrot/blue"
+    }
+   },
+   {
+    "when": "parrot/green",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/parrot/green"
+    }
+   },
+   {
+    "when": "parrot/yellow_blue",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/parrot/yellow_blue"
+    }
+   },
+   {
+    "when": "parrot/grey",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/parrot/grey"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:select",
+   "property": "minecraft:custom_model_data",
+   "index": 1,
+   "cases": [
+    {
+     "when": "parrot",
+     "model": {
+      "type": "minecraft:model",
+      "model": "anythinginabucket:bucket/parrot"
+     }
+    }
+   ],
+   "fallback": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+     {
+      "threshold": 4100001,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/parrot"
+      }
+     },
+     {
+      "threshold": 4100121,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/parrot"
+      }
+     },
+     {
+      "threshold": 4100122,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/parrot/blue"
+      }
+     },
+     {
+      "threshold": 4100123,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/parrot/green"
+      }
+     },
+     {
+      "threshold": 4100124,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/parrot/grey"
+      }
+     },
+     {
+      "threshold": 4100125,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/parrot/yellow_blue"
+      }
+     },
+     {
+      "threshold": 4100126,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/parrot"
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:model",
+     "model": "minecraft:item/template_spawn_egg",
+     "tints": [
+      {
+       "type": "minecraft:constant",
+       "value": -15882485
+      },
+      {
+       "type": "minecraft:constant",
+       "value": -65536
+      }
+     ]
+    }
+   }
+  }
+ }
+}

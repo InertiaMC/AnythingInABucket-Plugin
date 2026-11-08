@@ -1,0 +1,62 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "index": 0,
+  "cases": [
+   {
+    "when": "parched",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/parched"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:select",
+   "property": "minecraft:custom_model_data",
+   "index": 1,
+   "cases": [
+    {
+     "when": "parched",
+     "model": {
+      "type": "minecraft:model",
+      "model": "anythinginabucket:bucket/parched"
+     }
+    }
+   ],
+   "fallback": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+     {
+      "threshold": 4100001,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/parched"
+      }
+     },
+     {
+      "threshold": 4100120,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/parched"
+      }
+     },
+     {
+      "threshold": 4100121,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/parched"
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:model",
+     "model": "minecraft:item/parched_spawn_egg"
+    }
+   }
+  }
+ }
+}

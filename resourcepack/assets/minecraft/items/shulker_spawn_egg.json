@@ -1,0 +1,286 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "index": 0,
+  "cases": [
+   {
+    "when": "shulker",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/shulker"
+    }
+   },
+   {
+    "when": "shulker/white",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/shulker/white"
+    }
+   },
+   {
+    "when": "shulker/orange",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/shulker/orange"
+    }
+   },
+   {
+    "when": "shulker/magenta",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/shulker/magenta"
+    }
+   },
+   {
+    "when": "shulker/light_blue",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/shulker/light_blue"
+    }
+   },
+   {
+    "when": "shulker/yellow",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/shulker/yellow"
+    }
+   },
+   {
+    "when": "shulker/lime",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/shulker/lime"
+    }
+   },
+   {
+    "when": "shulker/pink",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/shulker/pink"
+    }
+   },
+   {
+    "when": "shulker/gray",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/shulker/gray"
+    }
+   },
+   {
+    "when": "shulker/light_gray",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/shulker/light_gray"
+    }
+   },
+   {
+    "when": "shulker/cyan",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/shulker/cyan"
+    }
+   },
+   {
+    "when": "shulker/purple",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/shulker/purple"
+    }
+   },
+   {
+    "when": "shulker/blue",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/shulker/blue"
+    }
+   },
+   {
+    "when": "shulker/brown",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/shulker/brown"
+    }
+   },
+   {
+    "when": "shulker/green",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/shulker/green"
+    }
+   },
+   {
+    "when": "shulker/red",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/shulker/red"
+    }
+   },
+   {
+    "when": "shulker/black",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/shulker/black"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:select",
+   "property": "minecraft:custom_model_data",
+   "index": 1,
+   "cases": [
+    {
+     "when": "shulker",
+     "model": {
+      "type": "minecraft:model",
+      "model": "anythinginabucket:bucket/shulker"
+     }
+    }
+   ],
+   "fallback": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+     {
+      "threshold": 4100001,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/shulker"
+      }
+     },
+     {
+      "threshold": 4100162,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/shulker"
+      }
+     },
+     {
+      "threshold": 4100163,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/shulker/black"
+      }
+     },
+     {
+      "threshold": 4100164,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/shulker/blue"
+      }
+     },
+     {
+      "threshold": 4100165,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/shulker/brown"
+      }
+     },
+     {
+      "threshold": 4100166,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/shulker/cyan"
+      }
+     },
+     {
+      "threshold": 4100167,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/shulker/gray"
+      }
+     },
+     {
+      "threshold": 4100168,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/shulker/green"
+      }
+     },
+     {
+      "threshold": 4100169,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/shulker/light_blue"
+      }
+     },
+     {
+      "threshold": 4100170,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/shulker/light_gray"
+      }
+     },
+     {
+      "threshold": 4100171,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/shulker/lime"
+      }
+     },
+     {
+      "threshold": 4100172,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/shulker/magenta"
+      }
+     },
+     {
+      "threshold": 4100173,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/shulker/orange"
+      }
+     },
+     {
+      "threshold": 4100174,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/shulker/pink"
+      }
+     },
+     {
+      "threshold": 4100175,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/shulker/purple"
+      }
+     },
+     {
+      "threshold": 4100176,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/shulker/red"
+      }
+     },
+     {
+      "threshold": 4100177,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/shulker/white"
+      }
+     },
+     {
+      "threshold": 4100178,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/shulker/yellow"
+      }
+     },
+     {
+      "threshold": 4100179,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/shulker"
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:model",
+     "model": "minecraft:item/shulker_spawn_egg"
+    }
+   }
+  }
+ }
+}

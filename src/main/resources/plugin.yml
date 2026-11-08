@@ -1,0 +1,54 @@
+name: AnythingInABucket
+version: '${project.version}'
+main: net.inertiamc.anythinginabucket.AnythingInABucket
+api-version: '1.21'
+folia-supported: true
+authors: [ InertiaMC ]
+description: Catch any mob in a bucket and let it out anywhere later, exactly as it was.
+website: https://modrinth.com/mod/anythinginabucket
+
+commands:
+  bucket:
+    description: Anything In A Bucket commands.
+    usage: /<command> help
+    aliases: [ aiab ]
+
+permissions:
+  aiab.admin:
+    description: Every AnythingInABucket permission.
+    default: op
+    children:
+      aiab.command.help: true
+      aiab.command.give: true
+      aiab.catch: true
+      aiab.release: true
+      aiab.bypass.owner: true
+      aiab.command.admin: true
+      aiab.command.admin.info: true
+      aiab.command.admin.reload: true
+  aiab.command.help:
+    description: Use /bucket help.
+    default: true
+  aiab.command.give:
+    description: Use /bucket give.
+    default: op
+  aiab.catch:
+    description: Catch mobs.
+    default: true
+  # aiab.catch.<mob> (villager, horse, ...) is registered at startup for every mob, true for everyone,
+  # so a server can deny one mob to a rank (negate the node) or allow it for one rank only.
+  aiab.release:
+    description: Release caught mobs.
+    default: true
+  aiab.bypass.owner:
+    description: Catch pets that belong to other players.
+    default: op
+  aiab.command.admin:
+    description: Use /bucket admin (each admin command also needs its own node).
+    default: op
+  aiab.command.admin.info:
+    description: Use /bucket admin info.
+    default: op
+  aiab.command.admin.reload:
+    description: Use /bucket admin reload.
+    default: op

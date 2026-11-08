@@ -1,0 +1,62 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "index": 0,
+  "cases": [
+   {
+    "when": "nautilus",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/nautilus"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:select",
+   "property": "minecraft:custom_model_data",
+   "index": 1,
+   "cases": [
+    {
+     "when": "nautilus",
+     "model": {
+      "type": "minecraft:model",
+      "model": "anythinginabucket:bucket/nautilus"
+     }
+    }
+   ],
+   "fallback": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+     {
+      "threshold": 4100001,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/nautilus"
+      }
+     },
+     {
+      "threshold": 4100111,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/nautilus"
+      }
+     },
+     {
+      "threshold": 4100112,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/nautilus"
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:model",
+     "model": "minecraft:item/nautilus_spawn_egg"
+    }
+   }
+  }
+ }
+}

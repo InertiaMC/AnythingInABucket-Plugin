@@ -1,0 +1,72 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "index": 0,
+  "cases": [
+   {
+    "when": "zombie",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:select",
+   "property": "minecraft:custom_model_data",
+   "index": 1,
+   "cases": [
+    {
+     "when": "zombie",
+     "model": {
+      "type": "minecraft:model",
+      "model": "anythinginabucket:bucket/zombie"
+     }
+    }
+   ],
+   "fallback": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+     {
+      "threshold": 4100001,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie"
+      }
+     },
+     {
+      "threshold": 4103393,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie"
+      }
+     },
+     {
+      "threshold": 4103394,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie"
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:model",
+     "model": "minecraft:item/template_spawn_egg",
+     "tints": [
+      {
+       "type": "minecraft:constant",
+       "value": -16732241
+      },
+      {
+       "type": "minecraft:constant",
+       "value": -8807323
+      }
+     ]
+    }
+   }
+  }
+ }
+}

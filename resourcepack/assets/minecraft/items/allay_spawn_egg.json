@@ -1,0 +1,55 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "index": 0,
+  "cases": [
+   {
+    "when": "allay",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/allay"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:select",
+   "property": "minecraft:custom_model_data",
+   "index": 1,
+   "cases": [
+    {
+     "when": "allay",
+     "model": {
+      "type": "minecraft:model",
+      "model": "anythinginabucket:bucket/allay"
+     }
+    }
+   ],
+   "fallback": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+     {
+      "threshold": 4100001,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/allay"
+      }
+     },
+     {
+      "threshold": 4100002,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/allay"
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:model",
+     "model": "minecraft:item/allay_spawn_egg"
+    }
+   }
+  }
+ }
+}

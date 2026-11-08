@@ -1,0 +1,72 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "index": 0,
+  "cases": [
+   {
+    "when": "creeper",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/creeper"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:select",
+   "property": "minecraft:custom_model_data",
+   "index": 1,
+   "cases": [
+    {
+     "when": "creeper",
+     "model": {
+      "type": "minecraft:model",
+      "model": "anythinginabucket:bucket/creeper"
+     }
+    }
+   ],
+   "fallback": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+     {
+      "threshold": 4100001,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/creeper"
+      }
+     },
+     {
+      "threshold": 4100042,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/creeper"
+      }
+     },
+     {
+      "threshold": 4100043,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/creeper"
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:model",
+     "model": "minecraft:item/template_spawn_egg",
+     "tints": [
+      {
+       "type": "minecraft:constant",
+       "value": -15882485
+      },
+      {
+       "type": "minecraft:constant",
+       "value": -16777216
+      }
+     ]
+    }
+   }
+  }
+ }
+}

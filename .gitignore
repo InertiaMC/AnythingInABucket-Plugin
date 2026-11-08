@@ -1,0 +1,31 @@
+# Build output
+target/
+build/
+out/
+dist/
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# Maven local repo (DO NOT commit)
+.m2/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.eclipse/
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local config
+*.local.yml

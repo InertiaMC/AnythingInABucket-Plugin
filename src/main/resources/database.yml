@@ -1,0 +1,22 @@
+# ------------------------------------------------------------------ #
+#                  ANYTHING IN A BUCKET DATABASE                     #
+#   Where every caught mob and the items' codes are kept. Kept out   #
+#   of config.yml so a config can be shared without the password.    #
+# ------------------------------------------------------------------ #
+
+# Do not edit. The plugin uses this to add new settings after an update.
+config-version: 1
+
+# Read at startup only: changing the type or the MySQL details needs a restart, and nothing is
+# copied between SQLite and MySQL when switching.
+# Only these two are supported, since they are the drivers the server bundles.
+type: "SQLite"              # SQLite | MySQL; SQLite is data/database.db
+mysql:
+  host: "localhost"
+  port: 3306
+  database: "anythinginabucket"
+  username: "root"
+  password: ""
+  # Added in front of every table name. Servers sharing one database need different prefixes.
+  # Letters, digits and _ only.
+  table-prefix: "anythinginabucket_"

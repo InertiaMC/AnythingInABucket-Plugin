@@ -1,0 +1,1532 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "index": 0,
+  "cases": [
+   {
+    "when": "zombie_villager",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager"
+    }
+   },
+   {
+    "when": "zombie_villager/plains",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/plains"
+    }
+   },
+   {
+    "when": "zombie_villager/plains/armorer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/plains/armorer"
+    }
+   },
+   {
+    "when": "zombie_villager/plains/butcher",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/plains/butcher"
+    }
+   },
+   {
+    "when": "zombie_villager/plains/cartographer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/plains/cartographer"
+    }
+   },
+   {
+    "when": "zombie_villager/plains/cleric",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/plains/cleric"
+    }
+   },
+   {
+    "when": "zombie_villager/plains/farmer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/plains/farmer"
+    }
+   },
+   {
+    "when": "zombie_villager/plains/fisherman",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/plains/fisherman"
+    }
+   },
+   {
+    "when": "zombie_villager/plains/fletcher",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/plains/fletcher"
+    }
+   },
+   {
+    "when": "zombie_villager/plains/leatherworker",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/plains/leatherworker"
+    }
+   },
+   {
+    "when": "zombie_villager/plains/librarian",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/plains/librarian"
+    }
+   },
+   {
+    "when": "zombie_villager/plains/mason",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/plains/mason"
+    }
+   },
+   {
+    "when": "zombie_villager/plains/nitwit",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/plains/nitwit"
+    }
+   },
+   {
+    "when": "zombie_villager/plains/shepherd",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/plains/shepherd"
+    }
+   },
+   {
+    "when": "zombie_villager/plains/toolsmith",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/plains/toolsmith"
+    }
+   },
+   {
+    "when": "zombie_villager/plains/weaponsmith",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/plains/weaponsmith"
+    }
+   },
+   {
+    "when": "zombie_villager/desert",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/desert"
+    }
+   },
+   {
+    "when": "zombie_villager/desert/armorer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/desert/armorer"
+    }
+   },
+   {
+    "when": "zombie_villager/desert/butcher",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/desert/butcher"
+    }
+   },
+   {
+    "when": "zombie_villager/desert/cartographer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/desert/cartographer"
+    }
+   },
+   {
+    "when": "zombie_villager/desert/cleric",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/desert/cleric"
+    }
+   },
+   {
+    "when": "zombie_villager/desert/farmer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/desert/farmer"
+    }
+   },
+   {
+    "when": "zombie_villager/desert/fisherman",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/desert/fisherman"
+    }
+   },
+   {
+    "when": "zombie_villager/desert/fletcher",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/desert/fletcher"
+    }
+   },
+   {
+    "when": "zombie_villager/desert/leatherworker",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/desert/leatherworker"
+    }
+   },
+   {
+    "when": "zombie_villager/desert/librarian",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/desert/librarian"
+    }
+   },
+   {
+    "when": "zombie_villager/desert/mason",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/desert/mason"
+    }
+   },
+   {
+    "when": "zombie_villager/desert/nitwit",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/desert/nitwit"
+    }
+   },
+   {
+    "when": "zombie_villager/desert/shepherd",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/desert/shepherd"
+    }
+   },
+   {
+    "when": "zombie_villager/desert/toolsmith",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/desert/toolsmith"
+    }
+   },
+   {
+    "when": "zombie_villager/desert/weaponsmith",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/desert/weaponsmith"
+    }
+   },
+   {
+    "when": "zombie_villager/jungle",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/jungle"
+    }
+   },
+   {
+    "when": "zombie_villager/jungle/armorer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/jungle/armorer"
+    }
+   },
+   {
+    "when": "zombie_villager/jungle/butcher",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/jungle/butcher"
+    }
+   },
+   {
+    "when": "zombie_villager/jungle/cartographer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/jungle/cartographer"
+    }
+   },
+   {
+    "when": "zombie_villager/jungle/cleric",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/jungle/cleric"
+    }
+   },
+   {
+    "when": "zombie_villager/jungle/farmer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/jungle/farmer"
+    }
+   },
+   {
+    "when": "zombie_villager/jungle/fisherman",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/jungle/fisherman"
+    }
+   },
+   {
+    "when": "zombie_villager/jungle/fletcher",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/jungle/fletcher"
+    }
+   },
+   {
+    "when": "zombie_villager/jungle/leatherworker",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/jungle/leatherworker"
+    }
+   },
+   {
+    "when": "zombie_villager/jungle/librarian",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/jungle/librarian"
+    }
+   },
+   {
+    "when": "zombie_villager/jungle/mason",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/jungle/mason"
+    }
+   },
+   {
+    "when": "zombie_villager/jungle/nitwit",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/jungle/nitwit"
+    }
+   },
+   {
+    "when": "zombie_villager/jungle/shepherd",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/jungle/shepherd"
+    }
+   },
+   {
+    "when": "zombie_villager/jungle/toolsmith",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/jungle/toolsmith"
+    }
+   },
+   {
+    "when": "zombie_villager/jungle/weaponsmith",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/jungle/weaponsmith"
+    }
+   },
+   {
+    "when": "zombie_villager/savanna",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/savanna"
+    }
+   },
+   {
+    "when": "zombie_villager/savanna/armorer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/savanna/armorer"
+    }
+   },
+   {
+    "when": "zombie_villager/savanna/butcher",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/savanna/butcher"
+    }
+   },
+   {
+    "when": "zombie_villager/savanna/cartographer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/savanna/cartographer"
+    }
+   },
+   {
+    "when": "zombie_villager/savanna/cleric",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/savanna/cleric"
+    }
+   },
+   {
+    "when": "zombie_villager/savanna/farmer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/savanna/farmer"
+    }
+   },
+   {
+    "when": "zombie_villager/savanna/fisherman",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/savanna/fisherman"
+    }
+   },
+   {
+    "when": "zombie_villager/savanna/fletcher",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/savanna/fletcher"
+    }
+   },
+   {
+    "when": "zombie_villager/savanna/leatherworker",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/savanna/leatherworker"
+    }
+   },
+   {
+    "when": "zombie_villager/savanna/librarian",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/savanna/librarian"
+    }
+   },
+   {
+    "when": "zombie_villager/savanna/mason",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/savanna/mason"
+    }
+   },
+   {
+    "when": "zombie_villager/savanna/nitwit",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/savanna/nitwit"
+    }
+   },
+   {
+    "when": "zombie_villager/savanna/shepherd",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/savanna/shepherd"
+    }
+   },
+   {
+    "when": "zombie_villager/savanna/toolsmith",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/savanna/toolsmith"
+    }
+   },
+   {
+    "when": "zombie_villager/savanna/weaponsmith",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/savanna/weaponsmith"
+    }
+   },
+   {
+    "when": "zombie_villager/snow",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/snow"
+    }
+   },
+   {
+    "when": "zombie_villager/snow/armorer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/snow/armorer"
+    }
+   },
+   {
+    "when": "zombie_villager/snow/butcher",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/snow/butcher"
+    }
+   },
+   {
+    "when": "zombie_villager/snow/cartographer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/snow/cartographer"
+    }
+   },
+   {
+    "when": "zombie_villager/snow/cleric",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/snow/cleric"
+    }
+   },
+   {
+    "when": "zombie_villager/snow/farmer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/snow/farmer"
+    }
+   },
+   {
+    "when": "zombie_villager/snow/fisherman",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/snow/fisherman"
+    }
+   },
+   {
+    "when": "zombie_villager/snow/fletcher",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/snow/fletcher"
+    }
+   },
+   {
+    "when": "zombie_villager/snow/leatherworker",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/snow/leatherworker"
+    }
+   },
+   {
+    "when": "zombie_villager/snow/librarian",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/snow/librarian"
+    }
+   },
+   {
+    "when": "zombie_villager/snow/mason",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/snow/mason"
+    }
+   },
+   {
+    "when": "zombie_villager/snow/nitwit",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/snow/nitwit"
+    }
+   },
+   {
+    "when": "zombie_villager/snow/shepherd",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/snow/shepherd"
+    }
+   },
+   {
+    "when": "zombie_villager/snow/toolsmith",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/snow/toolsmith"
+    }
+   },
+   {
+    "when": "zombie_villager/snow/weaponsmith",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/snow/weaponsmith"
+    }
+   },
+   {
+    "when": "zombie_villager/swamp",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/swamp"
+    }
+   },
+   {
+    "when": "zombie_villager/swamp/armorer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/swamp/armorer"
+    }
+   },
+   {
+    "when": "zombie_villager/swamp/butcher",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/swamp/butcher"
+    }
+   },
+   {
+    "when": "zombie_villager/swamp/cartographer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/swamp/cartographer"
+    }
+   },
+   {
+    "when": "zombie_villager/swamp/cleric",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/swamp/cleric"
+    }
+   },
+   {
+    "when": "zombie_villager/swamp/farmer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/swamp/farmer"
+    }
+   },
+   {
+    "when": "zombie_villager/swamp/fisherman",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/swamp/fisherman"
+    }
+   },
+   {
+    "when": "zombie_villager/swamp/fletcher",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/swamp/fletcher"
+    }
+   },
+   {
+    "when": "zombie_villager/swamp/leatherworker",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/swamp/leatherworker"
+    }
+   },
+   {
+    "when": "zombie_villager/swamp/librarian",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/swamp/librarian"
+    }
+   },
+   {
+    "when": "zombie_villager/swamp/mason",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/swamp/mason"
+    }
+   },
+   {
+    "when": "zombie_villager/swamp/nitwit",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/swamp/nitwit"
+    }
+   },
+   {
+    "when": "zombie_villager/swamp/shepherd",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/swamp/shepherd"
+    }
+   },
+   {
+    "when": "zombie_villager/swamp/toolsmith",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/swamp/toolsmith"
+    }
+   },
+   {
+    "when": "zombie_villager/swamp/weaponsmith",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/swamp/weaponsmith"
+    }
+   },
+   {
+    "when": "zombie_villager/taiga",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/taiga"
+    }
+   },
+   {
+    "when": "zombie_villager/taiga/armorer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/taiga/armorer"
+    }
+   },
+   {
+    "when": "zombie_villager/taiga/butcher",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/taiga/butcher"
+    }
+   },
+   {
+    "when": "zombie_villager/taiga/cartographer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/taiga/cartographer"
+    }
+   },
+   {
+    "when": "zombie_villager/taiga/cleric",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/taiga/cleric"
+    }
+   },
+   {
+    "when": "zombie_villager/taiga/farmer",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/taiga/farmer"
+    }
+   },
+   {
+    "when": "zombie_villager/taiga/fisherman",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/taiga/fisherman"
+    }
+   },
+   {
+    "when": "zombie_villager/taiga/fletcher",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/taiga/fletcher"
+    }
+   },
+   {
+    "when": "zombie_villager/taiga/leatherworker",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/taiga/leatherworker"
+    }
+   },
+   {
+    "when": "zombie_villager/taiga/librarian",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/taiga/librarian"
+    }
+   },
+   {
+    "when": "zombie_villager/taiga/mason",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/taiga/mason"
+    }
+   },
+   {
+    "when": "zombie_villager/taiga/nitwit",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/taiga/nitwit"
+    }
+   },
+   {
+    "when": "zombie_villager/taiga/shepherd",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/taiga/shepherd"
+    }
+   },
+   {
+    "when": "zombie_villager/taiga/toolsmith",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/taiga/toolsmith"
+    }
+   },
+   {
+    "when": "zombie_villager/taiga/weaponsmith",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/zombie_villager/taiga/weaponsmith"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:select",
+   "property": "minecraft:custom_model_data",
+   "index": 1,
+   "cases": [
+    {
+     "when": "zombie_villager",
+     "model": {
+      "type": "minecraft:model",
+      "model": "anythinginabucket:bucket/zombie_villager"
+     }
+    }
+   ],
+   "fallback": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+     {
+      "threshold": 4100001,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager"
+      }
+     },
+     {
+      "threshold": 4103398,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager"
+      }
+     },
+     {
+      "threshold": 4103399,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/desert"
+      }
+     },
+     {
+      "threshold": 4103400,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/desert/armorer"
+      }
+     },
+     {
+      "threshold": 4103401,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/desert/butcher"
+      }
+     },
+     {
+      "threshold": 4103402,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/desert/cartographer"
+      }
+     },
+     {
+      "threshold": 4103403,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/desert/cleric"
+      }
+     },
+     {
+      "threshold": 4103404,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/desert/farmer"
+      }
+     },
+     {
+      "threshold": 4103405,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/desert/fisherman"
+      }
+     },
+     {
+      "threshold": 4103406,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/desert/fletcher"
+      }
+     },
+     {
+      "threshold": 4103407,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/desert/leatherworker"
+      }
+     },
+     {
+      "threshold": 4103408,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/desert/librarian"
+      }
+     },
+     {
+      "threshold": 4103409,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/desert/mason"
+      }
+     },
+     {
+      "threshold": 4103410,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/desert/nitwit"
+      }
+     },
+     {
+      "threshold": 4103411,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/desert/shepherd"
+      }
+     },
+     {
+      "threshold": 4103412,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/desert/toolsmith"
+      }
+     },
+     {
+      "threshold": 4103413,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/desert/weaponsmith"
+      }
+     },
+     {
+      "threshold": 4103414,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/jungle"
+      }
+     },
+     {
+      "threshold": 4103415,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/jungle/armorer"
+      }
+     },
+     {
+      "threshold": 4103416,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/jungle/butcher"
+      }
+     },
+     {
+      "threshold": 4103417,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/jungle/cartographer"
+      }
+     },
+     {
+      "threshold": 4103418,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/jungle/cleric"
+      }
+     },
+     {
+      "threshold": 4103419,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/jungle/farmer"
+      }
+     },
+     {
+      "threshold": 4103420,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/jungle/fisherman"
+      }
+     },
+     {
+      "threshold": 4103421,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/jungle/fletcher"
+      }
+     },
+     {
+      "threshold": 4103422,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/jungle/leatherworker"
+      }
+     },
+     {
+      "threshold": 4103423,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/jungle/librarian"
+      }
+     },
+     {
+      "threshold": 4103424,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/jungle/mason"
+      }
+     },
+     {
+      "threshold": 4103425,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/jungle/nitwit"
+      }
+     },
+     {
+      "threshold": 4103426,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/jungle/shepherd"
+      }
+     },
+     {
+      "threshold": 4103427,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/jungle/toolsmith"
+      }
+     },
+     {
+      "threshold": 4103428,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/jungle/weaponsmith"
+      }
+     },
+     {
+      "threshold": 4103429,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/plains"
+      }
+     },
+     {
+      "threshold": 4103430,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/plains/armorer"
+      }
+     },
+     {
+      "threshold": 4103431,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/plains/butcher"
+      }
+     },
+     {
+      "threshold": 4103432,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/plains/cartographer"
+      }
+     },
+     {
+      "threshold": 4103433,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/plains/cleric"
+      }
+     },
+     {
+      "threshold": 4103434,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/plains/farmer"
+      }
+     },
+     {
+      "threshold": 4103435,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/plains/fisherman"
+      }
+     },
+     {
+      "threshold": 4103436,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/plains/fletcher"
+      }
+     },
+     {
+      "threshold": 4103437,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/plains/leatherworker"
+      }
+     },
+     {
+      "threshold": 4103438,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/plains/librarian"
+      }
+     },
+     {
+      "threshold": 4103439,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/plains/mason"
+      }
+     },
+     {
+      "threshold": 4103440,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/plains/nitwit"
+      }
+     },
+     {
+      "threshold": 4103441,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/plains/shepherd"
+      }
+     },
+     {
+      "threshold": 4103442,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/plains/toolsmith"
+      }
+     },
+     {
+      "threshold": 4103443,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/plains/weaponsmith"
+      }
+     },
+     {
+      "threshold": 4103444,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/savanna"
+      }
+     },
+     {
+      "threshold": 4103445,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/savanna/armorer"
+      }
+     },
+     {
+      "threshold": 4103446,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/savanna/butcher"
+      }
+     },
+     {
+      "threshold": 4103447,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/savanna/cartographer"
+      }
+     },
+     {
+      "threshold": 4103448,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/savanna/cleric"
+      }
+     },
+     {
+      "threshold": 4103449,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/savanna/farmer"
+      }
+     },
+     {
+      "threshold": 4103450,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/savanna/fisherman"
+      }
+     },
+     {
+      "threshold": 4103451,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/savanna/fletcher"
+      }
+     },
+     {
+      "threshold": 4103452,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/savanna/leatherworker"
+      }
+     },
+     {
+      "threshold": 4103453,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/savanna/librarian"
+      }
+     },
+     {
+      "threshold": 4103454,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/savanna/mason"
+      }
+     },
+     {
+      "threshold": 4103455,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/savanna/nitwit"
+      }
+     },
+     {
+      "threshold": 4103456,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/savanna/shepherd"
+      }
+     },
+     {
+      "threshold": 4103457,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/savanna/toolsmith"
+      }
+     },
+     {
+      "threshold": 4103458,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/savanna/weaponsmith"
+      }
+     },
+     {
+      "threshold": 4103459,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/snow"
+      }
+     },
+     {
+      "threshold": 4103460,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/snow/armorer"
+      }
+     },
+     {
+      "threshold": 4103461,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/snow/butcher"
+      }
+     },
+     {
+      "threshold": 4103462,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/snow/cartographer"
+      }
+     },
+     {
+      "threshold": 4103463,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/snow/cleric"
+      }
+     },
+     {
+      "threshold": 4103464,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/snow/farmer"
+      }
+     },
+     {
+      "threshold": 4103465,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/snow/fisherman"
+      }
+     },
+     {
+      "threshold": 4103466,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/snow/fletcher"
+      }
+     },
+     {
+      "threshold": 4103467,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/snow/leatherworker"
+      }
+     },
+     {
+      "threshold": 4103468,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/snow/librarian"
+      }
+     },
+     {
+      "threshold": 4103469,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/snow/mason"
+      }
+     },
+     {
+      "threshold": 4103470,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/snow/nitwit"
+      }
+     },
+     {
+      "threshold": 4103471,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/snow/shepherd"
+      }
+     },
+     {
+      "threshold": 4103472,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/snow/toolsmith"
+      }
+     },
+     {
+      "threshold": 4103473,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/snow/weaponsmith"
+      }
+     },
+     {
+      "threshold": 4103474,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/swamp"
+      }
+     },
+     {
+      "threshold": 4103475,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/swamp/armorer"
+      }
+     },
+     {
+      "threshold": 4103476,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/swamp/butcher"
+      }
+     },
+     {
+      "threshold": 4103477,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/swamp/cartographer"
+      }
+     },
+     {
+      "threshold": 4103478,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/swamp/cleric"
+      }
+     },
+     {
+      "threshold": 4103479,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/swamp/farmer"
+      }
+     },
+     {
+      "threshold": 4103480,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/swamp/fisherman"
+      }
+     },
+     {
+      "threshold": 4103481,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/swamp/fletcher"
+      }
+     },
+     {
+      "threshold": 4103482,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/swamp/leatherworker"
+      }
+     },
+     {
+      "threshold": 4103483,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/swamp/librarian"
+      }
+     },
+     {
+      "threshold": 4103484,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/swamp/mason"
+      }
+     },
+     {
+      "threshold": 4103485,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/swamp/nitwit"
+      }
+     },
+     {
+      "threshold": 4103486,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/swamp/shepherd"
+      }
+     },
+     {
+      "threshold": 4103487,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/swamp/toolsmith"
+      }
+     },
+     {
+      "threshold": 4103488,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/swamp/weaponsmith"
+      }
+     },
+     {
+      "threshold": 4103489,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/taiga"
+      }
+     },
+     {
+      "threshold": 4103490,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/taiga/armorer"
+      }
+     },
+     {
+      "threshold": 4103491,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/taiga/butcher"
+      }
+     },
+     {
+      "threshold": 4103492,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/taiga/cartographer"
+      }
+     },
+     {
+      "threshold": 4103493,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/taiga/cleric"
+      }
+     },
+     {
+      "threshold": 4103494,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/taiga/farmer"
+      }
+     },
+     {
+      "threshold": 4103495,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/taiga/fisherman"
+      }
+     },
+     {
+      "threshold": 4103496,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/taiga/fletcher"
+      }
+     },
+     {
+      "threshold": 4103497,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/taiga/leatherworker"
+      }
+     },
+     {
+      "threshold": 4103498,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/taiga/librarian"
+      }
+     },
+     {
+      "threshold": 4103499,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/taiga/mason"
+      }
+     },
+     {
+      "threshold": 4103500,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/taiga/nitwit"
+      }
+     },
+     {
+      "threshold": 4103501,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/taiga/shepherd"
+      }
+     },
+     {
+      "threshold": 4103502,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/taiga/toolsmith"
+      }
+     },
+     {
+      "threshold": 4103503,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager/taiga/weaponsmith"
+      }
+     },
+     {
+      "threshold": 4103504,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/zombie_villager"
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:model",
+     "model": "minecraft:item/zombie_villager_spawn_egg"
+    }
+   }
+  }
+ }
+}

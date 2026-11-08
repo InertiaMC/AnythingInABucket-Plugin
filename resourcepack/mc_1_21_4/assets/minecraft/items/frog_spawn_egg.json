@@ -1,0 +1,107 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "index": 0,
+  "cases": [
+   {
+    "when": "frog",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/frog"
+    }
+   },
+   {
+    "when": "frog/warm",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/frog/warm"
+    }
+   },
+   {
+    "when": "frog/cold",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/frog/cold"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:select",
+   "property": "minecraft:custom_model_data",
+   "index": 1,
+   "cases": [
+    {
+     "when": "frog",
+     "model": {
+      "type": "minecraft:model",
+      "model": "anythinginabucket:bucket/frog"
+     }
+    }
+   ],
+   "fallback": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+     {
+      "threshold": 4100001,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/frog"
+      }
+     },
+     {
+      "threshold": 4100053,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/frog"
+      }
+     },
+     {
+      "threshold": 4100054,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/frog/cold"
+      }
+     },
+     {
+      "threshold": 4100055,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/frog"
+      }
+     },
+     {
+      "threshold": 4100056,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/frog/warm"
+      }
+     },
+     {
+      "threshold": 4100057,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/frog"
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:model",
+     "model": "minecraft:item/template_spawn_egg",
+     "tints": [
+      {
+       "type": "minecraft:constant",
+       "value": -3115964
+      },
+      {
+       "type": "minecraft:constant",
+       "value": -14468
+      }
+     ]
+    }
+   }
+  }
+ }
+}

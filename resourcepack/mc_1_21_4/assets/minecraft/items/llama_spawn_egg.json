@@ -1,0 +1,114 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "index": 0,
+  "cases": [
+   {
+    "when": "llama",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/llama"
+    }
+   },
+   {
+    "when": "llama/white",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/llama/white"
+    }
+   },
+   {
+    "when": "llama/brown",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/llama/brown"
+    }
+   },
+   {
+    "when": "llama/gray",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/llama/gray"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:select",
+   "property": "minecraft:custom_model_data",
+   "index": 1,
+   "cases": [
+    {
+     "when": "llama",
+     "model": {
+      "type": "minecraft:model",
+      "model": "anythinginabucket:bucket/llama"
+     }
+    }
+   ],
+   "fallback": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+     {
+      "threshold": 4100001,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/llama"
+      }
+     },
+     {
+      "threshold": 4100103,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/llama"
+      }
+     },
+     {
+      "threshold": 4100104,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/llama/brown"
+      }
+     },
+     {
+      "threshold": 4100105,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/llama/gray"
+      }
+     },
+     {
+      "threshold": 4100106,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/llama/white"
+      }
+     },
+     {
+      "threshold": 4100107,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/llama"
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:model",
+     "model": "minecraft:item/template_spawn_egg",
+     "tints": [
+      {
+       "type": "minecraft:constant",
+       "value": -4153731
+      },
+      {
+       "type": "minecraft:constant",
+       "value": -6725824
+      }
+     ]
+    }
+   }
+  }
+ }
+}

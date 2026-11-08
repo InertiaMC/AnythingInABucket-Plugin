@@ -1,0 +1,62 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "index": 0,
+  "cases": [
+   {
+    "when": "tadpole",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/tadpole"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:select",
+   "property": "minecraft:custom_model_data",
+   "index": 1,
+   "cases": [
+    {
+     "when": "tadpole",
+     "model": {
+      "type": "minecraft:model",
+      "model": "anythinginabucket:bucket/tadpole"
+     }
+    }
+   ],
+   "fallback": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+     {
+      "threshold": 4100001,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/tadpole"
+      }
+     },
+     {
+      "threshold": 4100190,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/tadpole"
+      }
+     },
+     {
+      "threshold": 4100191,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/tadpole"
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:model",
+     "model": "minecraft:item/tadpole_spawn_egg"
+    }
+   }
+  }
+ }
+}

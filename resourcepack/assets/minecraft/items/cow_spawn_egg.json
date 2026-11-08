@@ -1,0 +1,104 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "index": 0,
+  "cases": [
+   {
+    "when": "cow",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/cow"
+    }
+   },
+   {
+    "when": "cow/cold",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/cow/cold"
+    }
+   },
+   {
+    "when": "cow/temperate",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/cow/temperate"
+    }
+   },
+   {
+    "when": "cow/warm",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/cow/warm"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:select",
+   "property": "minecraft:custom_model_data",
+   "index": 1,
+   "cases": [
+    {
+     "when": "cow",
+     "model": {
+      "type": "minecraft:model",
+      "model": "anythinginabucket:bucket/cow"
+     }
+    }
+   ],
+   "fallback": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+     {
+      "threshold": 4100001,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/cow"
+      }
+     },
+     {
+      "threshold": 4100037,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/cow"
+      }
+     },
+     {
+      "threshold": 4100038,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/cow/cold"
+      }
+     },
+     {
+      "threshold": 4100039,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/cow/temperate"
+      }
+     },
+     {
+      "threshold": 4100040,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/cow/warm"
+      }
+     },
+     {
+      "threshold": 4100041,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/cow"
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:model",
+     "model": "minecraft:item/cow_spawn_egg"
+    }
+   }
+  }
+ }
+}

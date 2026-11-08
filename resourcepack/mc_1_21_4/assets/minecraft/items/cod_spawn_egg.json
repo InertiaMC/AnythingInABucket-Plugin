@@ -1,0 +1,72 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "index": 0,
+  "cases": [
+   {
+    "when": "cod",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/cod"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:select",
+   "property": "minecraft:custom_model_data",
+   "index": 1,
+   "cases": [
+    {
+     "when": "cod",
+     "model": {
+      "type": "minecraft:model",
+      "model": "anythinginabucket:bucket/cod"
+     }
+    }
+   ],
+   "fallback": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+     {
+      "threshold": 4100001,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/cod"
+      }
+     },
+     {
+      "threshold": 4100032,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/cod"
+      }
+     },
+     {
+      "threshold": 4100033,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/cod"
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:model",
+     "model": "minecraft:item/template_spawn_egg",
+     "tints": [
+      {
+       "type": "minecraft:constant",
+       "value": -4085910
+      },
+      {
+       "type": "minecraft:constant",
+       "value": -1719157
+      }
+     ]
+    }
+   }
+  }
+ }
+}

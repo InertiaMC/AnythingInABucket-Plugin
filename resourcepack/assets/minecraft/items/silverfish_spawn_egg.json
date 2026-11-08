@@ -1,0 +1,62 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "index": 0,
+  "cases": [
+   {
+    "when": "silverfish",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/silverfish"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:select",
+   "property": "minecraft:custom_model_data",
+   "index": 1,
+   "cases": [
+    {
+     "when": "silverfish",
+     "model": {
+      "type": "minecraft:model",
+      "model": "anythinginabucket:bucket/silverfish"
+     }
+    }
+   ],
+   "fallback": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+     {
+      "threshold": 4100001,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/silverfish"
+      }
+     },
+     {
+      "threshold": 4100179,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/silverfish"
+      }
+     },
+     {
+      "threshold": 4100180,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/silverfish"
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:model",
+     "model": "minecraft:item/silverfish_spawn_egg"
+    }
+   }
+  }
+ }
+}

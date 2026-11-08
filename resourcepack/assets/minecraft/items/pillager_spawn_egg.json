@@ -1,0 +1,62 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "index": 0,
+  "cases": [
+   {
+    "when": "pillager",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/pillager"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:select",
+   "property": "minecraft:custom_model_data",
+   "index": 1,
+   "cases": [
+    {
+     "when": "pillager",
+     "model": {
+      "type": "minecraft:model",
+      "model": "anythinginabucket:bucket/pillager"
+     }
+    }
+   ],
+   "fallback": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+     {
+      "threshold": 4100001,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/pillager"
+      }
+     },
+     {
+      "threshold": 4100133,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/pillager"
+      }
+     },
+     {
+      "threshold": 4100134,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/pillager"
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:model",
+     "model": "minecraft:item/pillager_spawn_egg"
+    }
+   }
+  }
+ }
+}

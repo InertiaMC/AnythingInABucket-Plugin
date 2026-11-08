@@ -1,0 +1,76 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "index": 0,
+  "cases": [
+   {
+    "when": "mooshroom",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/mooshroom"
+    }
+   },
+   {
+    "when": "mooshroom/brown",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/mooshroom/brown"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:select",
+   "property": "minecraft:custom_model_data",
+   "index": 1,
+   "cases": [
+    {
+     "when": "mooshroom",
+     "model": {
+      "type": "minecraft:model",
+      "model": "anythinginabucket:bucket/mooshroom"
+     }
+    }
+   ],
+   "fallback": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+     {
+      "threshold": 4100001,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/mooshroom"
+      }
+     },
+     {
+      "threshold": 4100108,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/mooshroom"
+      }
+     },
+     {
+      "threshold": 4100109,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/mooshroom/brown"
+      }
+     },
+     {
+      "threshold": 4100110,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/mooshroom"
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:model",
+     "model": "minecraft:item/mooshroom_spawn_egg"
+    }
+   }
+  }
+ }
+}

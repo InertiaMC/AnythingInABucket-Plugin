@@ -1,0 +1,91 @@
+{
+  "pack": {
+    "description": "AnythingInABucket: caught mobs show in a bucket",
+    "pack_format": 34,
+    "supported_formats": [
+      34,
+      97
+    ],
+    "min_format": 34,
+    "max_format": [
+      97,
+      1
+    ]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "formats": [
+          34,
+          45
+        ],
+        "min_format": 34,
+        "max_format": 45,
+        "directory": "mc_1_21_1"
+      },
+      {
+        "formats": [
+          46,
+          54
+        ],
+        "min_format": 46,
+        "max_format": 54,
+        "directory": "mc_1_21_4"
+      },
+      {
+        "formats": [
+          55,
+          62
+        ],
+        "min_format": 55,
+        "max_format": 62,
+        "directory": "mc_1_21_5"
+      },
+      {
+        "formats": [
+          63,
+          68
+        ],
+        "min_format": 63,
+        "max_format": 68,
+        "directory": "mc_1_21_8"
+      },
+      {
+        "formats": [
+          69,
+          74
+        ],
+        "min_format": 69,
+        "max_format": 74,
+        "directory": "mc_1_21_10"
+      },
+      {
+        "formats": [
+          75,
+          83
+        ],
+        "min_format": 75,
+        "max_format": 83,
+        "directory": "mc_1_21_11"
+      },
+      {
+        "formats": [
+          84,
+          87
+        ],
+        "min_format": 84,
+        "max_format": 87,
+        "directory": "mc_26_1_2"
+      },
+      {
+        "formats": [
+          88,
+          96
+        ],
+        "min_format": 88,
+        "max_format": 96,
+        "directory": "mc_26_2"
+      }
+    ]
+  }
+}

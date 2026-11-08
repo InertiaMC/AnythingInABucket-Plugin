@@ -1,0 +1,62 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "index": 0,
+  "cases": [
+   {
+    "when": "bee",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/bee"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:select",
+   "property": "minecraft:custom_model_data",
+   "index": 1,
+   "cases": [
+    {
+     "when": "bee",
+     "model": {
+      "type": "minecraft:model",
+      "model": "anythinginabucket:bucket/bee"
+     }
+    }
+   ],
+   "fallback": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+     {
+      "threshold": 4100001,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/bee"
+      }
+     },
+     {
+      "threshold": 4100009,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/bee"
+      }
+     },
+     {
+      "threshold": 4100010,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/bee"
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:model",
+     "model": "minecraft:item/bee_spawn_egg"
+    }
+   }
+  }
+ }
+}

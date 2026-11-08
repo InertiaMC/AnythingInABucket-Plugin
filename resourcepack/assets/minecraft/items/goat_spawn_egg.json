@@ -1,0 +1,62 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "index": 0,
+  "cases": [
+   {
+    "when": "goat",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/goat"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:select",
+   "property": "minecraft:custom_model_data",
+   "index": 1,
+   "cases": [
+    {
+     "when": "goat",
+     "model": {
+      "type": "minecraft:model",
+      "model": "anythinginabucket:bucket/goat"
+     }
+    }
+   ],
+   "fallback": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+     {
+      "threshold": 4100001,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/goat"
+      }
+     },
+     {
+      "threshold": 4100060,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/goat"
+      }
+     },
+     {
+      "threshold": 4100061,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/goat"
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:model",
+     "model": "minecraft:item/goat_spawn_egg"
+    }
+   }
+  }
+ }
+}

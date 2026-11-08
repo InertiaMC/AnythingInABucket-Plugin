@@ -1,0 +1,146 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "index": 0,
+  "cases": [
+   {
+    "when": "panda",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/panda"
+    }
+   },
+   {
+    "when": "panda/lazy",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/panda/lazy"
+    }
+   },
+   {
+    "when": "panda/worried",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/panda/worried"
+    }
+   },
+   {
+    "when": "panda/playful",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/panda/playful"
+    }
+   },
+   {
+    "when": "panda/brown",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/panda/brown"
+    }
+   },
+   {
+    "when": "panda/weak",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/panda/weak"
+    }
+   },
+   {
+    "when": "panda/aggressive",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/panda/aggressive"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:select",
+   "property": "minecraft:custom_model_data",
+   "index": 1,
+   "cases": [
+    {
+     "when": "panda",
+     "model": {
+      "type": "minecraft:model",
+      "model": "anythinginabucket:bucket/panda"
+     }
+    }
+   ],
+   "fallback": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+     {
+      "threshold": 4100001,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/panda"
+      }
+     },
+     {
+      "threshold": 4100113,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/panda"
+      }
+     },
+     {
+      "threshold": 4100114,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/panda/aggressive"
+      }
+     },
+     {
+      "threshold": 4100115,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/panda/brown"
+      }
+     },
+     {
+      "threshold": 4100116,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/panda/lazy"
+      }
+     },
+     {
+      "threshold": 4100117,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/panda/playful"
+      }
+     },
+     {
+      "threshold": 4100118,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/panda/weak"
+      }
+     },
+     {
+      "threshold": 4100119,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/panda/worried"
+      }
+     },
+     {
+      "threshold": 4100120,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/panda"
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:model",
+     "model": "minecraft:item/panda_spawn_egg"
+    }
+   }
+  }
+ }
+}

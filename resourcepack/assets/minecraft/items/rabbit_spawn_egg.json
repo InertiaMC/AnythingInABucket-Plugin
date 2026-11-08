@@ -1,0 +1,160 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "index": 0,
+  "cases": [
+   {
+    "when": "rabbit",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/rabbit"
+    }
+   },
+   {
+    "when": "rabbit/white",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/rabbit/white"
+    }
+   },
+   {
+    "when": "rabbit/black",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/rabbit/black"
+    }
+   },
+   {
+    "when": "rabbit/white_splotched",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/rabbit/white_splotched"
+    }
+   },
+   {
+    "when": "rabbit/gold",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/rabbit/gold"
+    }
+   },
+   {
+    "when": "rabbit/salt",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/rabbit/salt"
+    }
+   },
+   {
+    "when": "rabbit/toast",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/rabbit/toast"
+    }
+   },
+   {
+    "when": "rabbit/caerbannog",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/rabbit/caerbannog"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:select",
+   "property": "minecraft:custom_model_data",
+   "index": 1,
+   "cases": [
+    {
+     "when": "rabbit",
+     "model": {
+      "type": "minecraft:model",
+      "model": "anythinginabucket:bucket/rabbit"
+     }
+    }
+   ],
+   "fallback": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+     {
+      "threshold": 4100001,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/rabbit"
+      }
+     },
+     {
+      "threshold": 4100136,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/rabbit"
+      }
+     },
+     {
+      "threshold": 4100137,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/rabbit/black"
+      }
+     },
+     {
+      "threshold": 4100138,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/rabbit/caerbannog"
+      }
+     },
+     {
+      "threshold": 4100139,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/rabbit/gold"
+      }
+     },
+     {
+      "threshold": 4100140,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/rabbit/salt"
+      }
+     },
+     {
+      "threshold": 4100141,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/rabbit/toast"
+      }
+     },
+     {
+      "threshold": 4100142,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/rabbit/white"
+      }
+     },
+     {
+      "threshold": 4100143,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/rabbit/white_splotched"
+      }
+     },
+     {
+      "threshold": 4100144,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/rabbit"
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:model",
+     "model": "minecraft:item/rabbit_spawn_egg"
+    }
+   }
+  }
+ }
+}

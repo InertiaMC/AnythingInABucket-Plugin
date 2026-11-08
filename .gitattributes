@@ -1,0 +1,12 @@
+# Text files use LF in the repository and the working tree, matching .editorconfig,
+# whatever the local core.autocrlf setting.
+* text=auto eol=lf
+
+# Binary files.
+*.jar       binary
+*.schem     binary
+*.schematic binary
+*.png       binary
+*.jpg       binary
+*.gif       binary
+*.zip       binary

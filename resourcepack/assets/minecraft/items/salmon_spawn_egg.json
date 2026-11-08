@@ -1,0 +1,62 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "index": 0,
+  "cases": [
+   {
+    "when": "salmon",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/salmon"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:select",
+   "property": "minecraft:custom_model_data",
+   "index": 1,
+   "cases": [
+    {
+     "when": "salmon",
+     "model": {
+      "type": "minecraft:model",
+      "model": "anythinginabucket:bucket/salmon"
+     }
+    }
+   ],
+   "fallback": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+     {
+      "threshold": 4100001,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/salmon"
+      }
+     },
+     {
+      "threshold": 4100145,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/salmon"
+      }
+     },
+     {
+      "threshold": 4100146,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/salmon"
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:model",
+     "model": "minecraft:item/salmon_spawn_egg"
+    }
+   }
+  }
+ }
+}

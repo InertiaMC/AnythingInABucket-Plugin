@@ -1,0 +1,216 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "index": 0,
+  "cases": [
+   {
+    "when": "cat",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/cat"
+    }
+   },
+   {
+    "when": "cat/calico",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/cat/calico"
+    }
+   },
+   {
+    "when": "cat/siamese",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/cat/siamese"
+    }
+   },
+   {
+    "when": "cat/persian",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/cat/persian"
+    }
+   },
+   {
+    "when": "cat/white",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/cat/white"
+    }
+   },
+   {
+    "when": "cat/all_black",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/cat/all_black"
+    }
+   },
+   {
+    "when": "cat/british_shorthair",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/cat/british_shorthair"
+    }
+   },
+   {
+    "when": "cat/tabby",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/cat/tabby"
+    }
+   },
+   {
+    "when": "cat/black",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/cat/black"
+    }
+   },
+   {
+    "when": "cat/jellie",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/cat/jellie"
+    }
+   },
+   {
+    "when": "cat/ragdoll",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/cat/ragdoll"
+    }
+   },
+   {
+    "when": "cat/red",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/cat/red"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:select",
+   "property": "minecraft:custom_model_data",
+   "index": 1,
+   "cases": [
+    {
+     "when": "cat",
+     "model": {
+      "type": "minecraft:model",
+      "model": "anythinginabucket:bucket/cat"
+     }
+    }
+   ],
+   "fallback": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+     {
+      "threshold": 4100001,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/cat"
+      }
+     },
+     {
+      "threshold": 4100015,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/cat"
+      }
+     },
+     {
+      "threshold": 4100016,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/cat/all_black"
+      }
+     },
+     {
+      "threshold": 4100017,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/cat/black"
+      }
+     },
+     {
+      "threshold": 4100018,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/cat/british_shorthair"
+      }
+     },
+     {
+      "threshold": 4100019,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/cat/calico"
+      }
+     },
+     {
+      "threshold": 4100020,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/cat/jellie"
+      }
+     },
+     {
+      "threshold": 4100021,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/cat/persian"
+      }
+     },
+     {
+      "threshold": 4100022,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/cat/ragdoll"
+      }
+     },
+     {
+      "threshold": 4100023,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/cat/red"
+      }
+     },
+     {
+      "threshold": 4100024,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/cat/siamese"
+      }
+     },
+     {
+      "threshold": 4100025,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/cat/tabby"
+      }
+     },
+     {
+      "threshold": 4100026,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/cat/white"
+      }
+     },
+     {
+      "threshold": 4100027,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/cat"
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:model",
+     "model": "minecraft:item/cat_spawn_egg"
+    }
+   }
+  }
+ }
+}

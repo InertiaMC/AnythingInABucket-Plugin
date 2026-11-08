@@ -1,0 +1,562 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "index": 0,
+  "cases": [
+   {
+    "when": "horse",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/horse"
+    }
+   },
+   {
+    "when": "horse/white",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/horse/white"
+    }
+   },
+   {
+    "when": "horse/white/white",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/horse/white/white"
+    }
+   },
+   {
+    "when": "horse/white/white_field",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/horse/white/white_field"
+    }
+   },
+   {
+    "when": "horse/white/white_dots",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/horse/white/white_dots"
+    }
+   },
+   {
+    "when": "horse/white/black_dots",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/horse/white/black_dots"
+    }
+   },
+   {
+    "when": "horse/creamy",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/horse/creamy"
+    }
+   },
+   {
+    "when": "horse/creamy/white",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/horse/creamy/white"
+    }
+   },
+   {
+    "when": "horse/creamy/white_field",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/horse/creamy/white_field"
+    }
+   },
+   {
+    "when": "horse/creamy/white_dots",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/horse/creamy/white_dots"
+    }
+   },
+   {
+    "when": "horse/creamy/black_dots",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/horse/creamy/black_dots"
+    }
+   },
+   {
+    "when": "horse/chestnut",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/horse/chestnut"
+    }
+   },
+   {
+    "when": "horse/chestnut/white",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/horse/chestnut/white"
+    }
+   },
+   {
+    "when": "horse/chestnut/white_field",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/horse/chestnut/white_field"
+    }
+   },
+   {
+    "when": "horse/chestnut/white_dots",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/horse/chestnut/white_dots"
+    }
+   },
+   {
+    "when": "horse/chestnut/black_dots",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/horse/chestnut/black_dots"
+    }
+   },
+   {
+    "when": "horse/brown",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/horse/brown"
+    }
+   },
+   {
+    "when": "horse/brown/white",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/horse/brown/white"
+    }
+   },
+   {
+    "when": "horse/brown/white_field",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/horse/brown/white_field"
+    }
+   },
+   {
+    "when": "horse/brown/white_dots",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/horse/brown/white_dots"
+    }
+   },
+   {
+    "when": "horse/brown/black_dots",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/horse/brown/black_dots"
+    }
+   },
+   {
+    "when": "horse/black",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/horse/black"
+    }
+   },
+   {
+    "when": "horse/black/white",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/horse/black/white"
+    }
+   },
+   {
+    "when": "horse/black/white_field",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/horse/black/white_field"
+    }
+   },
+   {
+    "when": "horse/black/white_dots",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/horse/black/white_dots"
+    }
+   },
+   {
+    "when": "horse/black/black_dots",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/horse/black/black_dots"
+    }
+   },
+   {
+    "when": "horse/gray",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/horse/gray"
+    }
+   },
+   {
+    "when": "horse/gray/white",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/horse/gray/white"
+    }
+   },
+   {
+    "when": "horse/gray/white_field",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/horse/gray/white_field"
+    }
+   },
+   {
+    "when": "horse/gray/white_dots",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/horse/gray/white_dots"
+    }
+   },
+   {
+    "when": "horse/gray/black_dots",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/horse/gray/black_dots"
+    }
+   },
+   {
+    "when": "horse/darkbrown",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/horse/darkbrown"
+    }
+   },
+   {
+    "when": "horse/darkbrown/white",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/horse/darkbrown/white"
+    }
+   },
+   {
+    "when": "horse/darkbrown/white_field",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/horse/darkbrown/white_field"
+    }
+   },
+   {
+    "when": "horse/darkbrown/white_dots",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/horse/darkbrown/white_dots"
+    }
+   },
+   {
+    "when": "horse/darkbrown/black_dots",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/horse/darkbrown/black_dots"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:select",
+   "property": "minecraft:custom_model_data",
+   "index": 1,
+   "cases": [
+    {
+     "when": "horse",
+     "model": {
+      "type": "minecraft:model",
+      "model": "anythinginabucket:bucket/horse"
+     }
+    }
+   ],
+   "fallback": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+     {
+      "threshold": 4100001,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse"
+      }
+     },
+     {
+      "threshold": 4100064,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse"
+      }
+     },
+     {
+      "threshold": 4100065,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse/black"
+      }
+     },
+     {
+      "threshold": 4100066,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse/black/black_dots"
+      }
+     },
+     {
+      "threshold": 4100067,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse/black/white"
+      }
+     },
+     {
+      "threshold": 4100068,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse/black/white_dots"
+      }
+     },
+     {
+      "threshold": 4100069,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse/black/white_field"
+      }
+     },
+     {
+      "threshold": 4100070,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse/brown"
+      }
+     },
+     {
+      "threshold": 4100071,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse/brown/black_dots"
+      }
+     },
+     {
+      "threshold": 4100072,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse/brown/white"
+      }
+     },
+     {
+      "threshold": 4100073,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse/brown/white_dots"
+      }
+     },
+     {
+      "threshold": 4100074,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse/brown/white_field"
+      }
+     },
+     {
+      "threshold": 4100075,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse/chestnut"
+      }
+     },
+     {
+      "threshold": 4100076,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse/chestnut/black_dots"
+      }
+     },
+     {
+      "threshold": 4100077,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse/chestnut/white"
+      }
+     },
+     {
+      "threshold": 4100078,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse/chestnut/white_dots"
+      }
+     },
+     {
+      "threshold": 4100079,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse/chestnut/white_field"
+      }
+     },
+     {
+      "threshold": 4100080,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse/creamy"
+      }
+     },
+     {
+      "threshold": 4100081,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse/creamy/black_dots"
+      }
+     },
+     {
+      "threshold": 4100082,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse/creamy/white"
+      }
+     },
+     {
+      "threshold": 4100083,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse/creamy/white_dots"
+      }
+     },
+     {
+      "threshold": 4100084,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse/creamy/white_field"
+      }
+     },
+     {
+      "threshold": 4100085,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse/darkbrown"
+      }
+     },
+     {
+      "threshold": 4100086,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse/darkbrown/black_dots"
+      }
+     },
+     {
+      "threshold": 4100087,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse/darkbrown/white"
+      }
+     },
+     {
+      "threshold": 4100088,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse/darkbrown/white_dots"
+      }
+     },
+     {
+      "threshold": 4100089,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse/darkbrown/white_field"
+      }
+     },
+     {
+      "threshold": 4100090,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse/gray"
+      }
+     },
+     {
+      "threshold": 4100091,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse/gray/black_dots"
+      }
+     },
+     {
+      "threshold": 4100092,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse/gray/white"
+      }
+     },
+     {
+      "threshold": 4100093,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse/gray/white_dots"
+      }
+     },
+     {
+      "threshold": 4100094,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse/gray/white_field"
+      }
+     },
+     {
+      "threshold": 4100095,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse/white"
+      }
+     },
+     {
+      "threshold": 4100096,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse/white/black_dots"
+      }
+     },
+     {
+      "threshold": 4100097,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse/white/white"
+      }
+     },
+     {
+      "threshold": 4100098,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse/white/white_dots"
+      }
+     },
+     {
+      "threshold": 4100099,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse/white/white_field"
+      }
+     },
+     {
+      "threshold": 4100100,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/horse"
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:model",
+     "model": "minecraft:item/template_spawn_egg",
+     "tints": [
+      {
+       "type": "minecraft:constant",
+       "value": -4153731
+      },
+      {
+       "type": "minecraft:constant",
+       "value": -1121024
+      }
+     ]
+    }
+   }
+  }
+ }
+}

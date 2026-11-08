@@ -1,0 +1,87 @@
+# ------------------------------------------------------------------ #
+#                   ANYTHING IN A BUCKET SETTINGS                    #
+#   Catch a mob in a bucket, release it anywhere later.              #
+#   Item names and lore are in messages.yml.                         #
+# ------------------------------------------------------------------ #
+
+# Do not edit. The plugin uses this to add new settings after an update.
+config-version: 4
+
+# Which bucket catches mobs:
+#   capture-bucket  only the special Capture Bucket (crafted, or given with /bucket give)
+#   normal-bucket   any normal bucket: sneak and right-click a mob (a normal click still milks cows)
+#   both            either one
+catch-with: capture-bucket
+
+# Releasing a mob gives the empty bucket back, so one bucket is used again and again.
+give-bucket-back: true
+
+# A dispenser lets the mob out of a filled bucket into the block in front of it, for trading halls and farms.
+# With give-bucket-back on, the empty bucket stays in the dispenser.
+dispensers-release: true
+
+# Mobs no one can catch, one per line, by their game name (the name /summon uses).
+# Players can never be caught.
+blacklist:
+  - wither
+  - ender_dragon
+  - warden
+  - elder_guardian
+
+# How long a player waits between catches, e.g. 1s, 30s, 0s for none.
+cooldown: 1s
+
+# Worlds where mobs can't be caught or released, one per line, by folder name, e.g.
+#   disabled-worlds:
+#     - world_nether
+#     - world_the_end
+disabled-worlds: []
+
+# Every bucket carries a code, so a copied bucket (a dupe, or a creative middle-click) does nothing.
+# false: copies work. A copied filled bucket lets the same mob out again, so the caught mob is
+# kept in the database after a release instead of deleted (good for creative or build servers).
+copy-protection: true
+
+# Only its owner can catch a tamed pet (aiab.bypass.owner lets staff catch any).
+# false: anyone can catch a tamed pet.
+pets-owner-only: true
+
+# Protection plugins (WorldGuard regions, land claims) are asked before a catch or a release,
+# so nothing is caught or let out where the player can't build.
+# false: catching and releasing work everywhere.
+respect-claims: true
+
+# The mob bucket resource pack: with it, a filled bucket looks like a bucket with its mob peeking out (a
+# librarian, a red sheep, a black cat) instead of a spawn egg, on every Minecraft version from 1.21 to 26.3.
+# Server owners with their own pack can merge this one into it instead.
+resource-pack:
+  # Offer it to each player as they join. They can say no.
+  send: false
+  # Where players download it from. Leave it empty for the newest version on Modrinth
+  # (modrinth.com/resourcepack/anythinginabucket-resource-pack), or put your own link.
+  url: ""
+
+# Only used when catch-with is capture-bucket or both.
+capture-bucket:
+  recipe:
+    enabled: true
+    # The crafting grid, top row first: up to three rows of up to three letters.
+    # Each letter is an item from the list below; a space is an empty slot.
+    shape:
+      - " e "
+      - "ebe"
+      - " l "
+    # What each letter in the shape is.
+    ingredients:
+      e: ender_pearl
+      b: bucket
+      l: lead
+
+# A sound key, or { name, volume, pitch }, or "" for none.
+sounds:
+  # A mob caught, and a Capture Bucket crafted.
+  catch: item.bucket.fill_axolotl
+  # A mob let out.
+  release: item.bucket.empty_axolotl
+  # Catching or releasing refused.
+  deny: entity.villager.no

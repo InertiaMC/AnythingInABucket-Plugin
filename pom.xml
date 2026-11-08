@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>net.inertiamc</groupId>
+    <artifactId>AnythingInABucket</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+    <name>AnythingInABucket</name>
+
+    <properties>
+        <java.version>21</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!-- The oldest supported API. Raising it drops support for every older server.
+             CI also compiles against the newest API (the api-ceiling job). -->
+        <spigot.version>1.21-R0.1-SNAPSHOT</spigot.version>
+        <inertia-core.version>0.42.0</inertia-core.version>
+    </properties>
+
+    <build>
+        <finalName>${project.artifactId}</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <!-- JDK 23+ no longer runs annotation processors found on the classpath,
+                     so Lombok needs an explicit processor path. -->
+                <version>3.16.0</version>
+                <configuration>
+                    <release>${java.version}</release>
+                    <annotationProcessorPaths>
+                        <path>
+                            <groupId>org.projectlombok</groupId>
+                            <artifactId>lombok</artifactId>
+                            <version>1.18.48</version>
+                        </path>
+                    </annotationProcessorPaths>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>3.6.2</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals><goal>shade</goal></goals>
+                        <configuration>
+                            <createDependencyReducedPom>false</createDependencyReducedPom>
+                            <!-- Each plugin shades its own copy of inertia-core under its own package, so
+                                 plugins built against different core versions never load each other's. -->
+                            <relocations>
+                                <relocation>
+                                    <pattern>net.inertiamc.core</pattern>
+                                    <shadedPattern>net.inertiamc.anythinginabucket.libs.core</shadedPattern>
+                                </relocation>
+                                <!-- Relocated so another plugin's HikariCP version is never loaded instead. -->
+                                <relocation>
+                                    <pattern>com.zaxxer.hikari</pattern>
+                                    <shadedPattern>net.inertiamc.anythinginabucket.libs.hikari</shadedPattern>
+                                </relocation>
+                            </relocations>
+                            <!-- Only these two are shaded. HikariCP's slf4j and the JDBC drivers come from the server. -->
+                            <artifactSet>
+                                <includes>
+                                    <include>com.zaxxer:HikariCP</include>
+                                    <include>net.inertiamc:inertia-core</include>
+                                </includes>
+                            </artifactSet>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+        <!-- Only plugin.yml is filtered, so ${...} text in other resources is never read as a Maven property. -->
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+                <includes>
+                    <include>plugin.yml</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>false</filtering>
+                <excludes>
+                    <exclude>plugin.yml</exclude>
+                </excludes>
+            </resource>
+        </resources>
+    </build>
+
+    <repositories>
+        <repository>
+            <id>spigotmc-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+        </repository>
+        <repository>
+            <id>papermc-repo</id>
+            <url>https://repo.papermc.io/repository/maven-public/</url>
+        </repository>
+        <repository>
+            <id>github-inertiamc</id>
+            <url>https://maven.pkg.github.com/InertiaMC/inertia-core</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>spigot-api</artifactId>
+            <version>${spigot.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>net.inertiamc</groupId>
+            <artifactId>inertia-core</artifactId>
+            <version>${inertia-core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.48</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.zaxxer</groupId>
+            <artifactId>HikariCP</artifactId>
+            <version>7.1.0</version>
+        </dependency>
+        <!-- JDBC drivers, loaded through DriverManager. The server bundles SQLite and MySQL drivers,
+             so they are provided and never shaded. -->
+        <dependency>
+            <groupId>org.xerial</groupId>
+            <artifactId>sqlite-jdbc</artifactId>
+            <version>3.45.3.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+            <version>9.2.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.14.4</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>5.24.0</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>

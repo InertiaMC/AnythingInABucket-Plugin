@@ -1,0 +1,198 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "index": 0,
+  "cases": [
+   {
+    "when": "wolf",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/wolf"
+    }
+   },
+   {
+    "when": "wolf/black",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/wolf/black"
+    }
+   },
+   {
+    "when": "wolf/spotted",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/wolf/spotted"
+    }
+   },
+   {
+    "when": "wolf/rusty",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/wolf/rusty"
+    }
+   },
+   {
+    "when": "wolf/striped",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/wolf/striped"
+    }
+   },
+   {
+    "when": "wolf/chestnut",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/wolf/chestnut"
+    }
+   },
+   {
+    "when": "wolf/ashen",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/wolf/ashen"
+    }
+   },
+   {
+    "when": "wolf/snowy",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/wolf/snowy"
+    }
+   },
+   {
+    "when": "wolf/woods",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/wolf/woods"
+    }
+   },
+   {
+    "when": "wolf/pale",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/wolf/pale"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:select",
+   "property": "minecraft:custom_model_data",
+   "index": 1,
+   "cases": [
+    {
+     "when": "wolf",
+     "model": {
+      "type": "minecraft:model",
+      "model": "anythinginabucket:bucket/wolf"
+     }
+    }
+   ],
+   "fallback": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+     {
+      "threshold": 4100001,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/wolf"
+      }
+     },
+     {
+      "threshold": 4103382,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/wolf"
+      }
+     },
+     {
+      "threshold": 4103383,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/wolf/ashen"
+      }
+     },
+     {
+      "threshold": 4103384,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/wolf/black"
+      }
+     },
+     {
+      "threshold": 4103385,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/wolf/chestnut"
+      }
+     },
+     {
+      "threshold": 4103386,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/wolf/pale"
+      }
+     },
+     {
+      "threshold": 4103387,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/wolf/rusty"
+      }
+     },
+     {
+      "threshold": 4103388,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/wolf/snowy"
+      }
+     },
+     {
+      "threshold": 4103389,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/wolf/spotted"
+      }
+     },
+     {
+      "threshold": 4103390,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/wolf/striped"
+      }
+     },
+     {
+      "threshold": 4103391,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/wolf/woods"
+      }
+     },
+     {
+      "threshold": 4103392,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/wolf"
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:model",
+     "model": "minecraft:item/template_spawn_egg",
+     "tints": [
+      {
+       "type": "minecraft:constant",
+       "value": -2632749
+      },
+      {
+       "type": "minecraft:constant",
+       "value": -3231850
+      }
+     ]
+    }
+   }
+  }
+ }
+}

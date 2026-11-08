@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/template_spawn_egg","overrides":[{"predicate":{"custom_model_data":4100001},"model":"anythinginabucket:bucket/wither"},{"predicate":{"custom_model_data":4103380},"model":"anythinginabucket:bucket/wither"},{"predicate":{"custom_model_data":4103381},"model":"anythinginabucket:bucket/wither"}]}

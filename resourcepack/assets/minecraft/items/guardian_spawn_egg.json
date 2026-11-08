@@ -1,0 +1,62 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "index": 0,
+  "cases": [
+   {
+    "when": "guardian",
+    "model": {
+     "type": "minecraft:model",
+     "model": "anythinginabucket:bucket/guardian"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:select",
+   "property": "minecraft:custom_model_data",
+   "index": 1,
+   "cases": [
+    {
+     "when": "guardian",
+     "model": {
+      "type": "minecraft:model",
+      "model": "anythinginabucket:bucket/guardian"
+     }
+    }
+   ],
+   "fallback": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+     {
+      "threshold": 4100001,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/guardian"
+      }
+     },
+     {
+      "threshold": 4100061,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/guardian"
+      }
+     },
+     {
+      "threshold": 4100062,
+      "model": {
+       "type": "minecraft:model",
+       "model": "anythinginabucket:bucket/guardian"
+      }
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:model",
+     "model": "minecraft:item/guardian_spawn_egg"
+    }
+   }
+  }
+ }
+}
